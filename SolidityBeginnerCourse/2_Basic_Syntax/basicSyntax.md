@@ -1,4 +1,3 @@
-# 2. Basic Syntax
 In this section we will create our first *smart contract*. This contract consists of a string that holds the value "Hello World!".
 
 In the first line, we should specify the license the contract uses. You can find a comprehensive list of licenses here: https://spdx.org/licenses/.

@@ -1,4 +1,3 @@
-# 1. Introduction
 Welcome to this interactive Solidity course for beginners.
 
 In this first section we will look at an example contract, give you a short preview of the concepts we will cover in this course and show you how you can interact with this contract in the Remix IDE.

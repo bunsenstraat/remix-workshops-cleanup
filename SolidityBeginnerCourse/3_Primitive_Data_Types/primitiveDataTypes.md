@@ -1,4 +1,3 @@
-# 3. Primitive Data Types
 In this section, we are going to show you Solidity’s primitive data types, how to declare them, and their characteristics.
 
 **bool**
