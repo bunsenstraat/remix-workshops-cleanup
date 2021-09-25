@@ -1,0 +1,8 @@
+--- 
+id: soliditybeginner
+name: Solidity Beginner Course
+summary: Solidity Beginner Course based on the popular https://solidity-by-example.org/ contracts
+level: 1
+tags: 
+  - Solidity
+  - Solidity-by-example
