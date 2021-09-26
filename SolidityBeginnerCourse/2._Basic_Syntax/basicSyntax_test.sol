@@ -3,9 +3,13 @@ import "remix_tests.sol";
 import "./basicSyntax.sol";
 
 contract MyTest {
-  HelloSolidity foo;
+  MyContract foo;
 
   function beforeEach() public {
-    foo = new HelloSolidity();
+    foo = new MyContract();
+  }
+  
+  function checkName() public returns (bool) {
+    return Assert.equal(foo.name(), string("Alice"), "initial value is not correct");
   }
 }
