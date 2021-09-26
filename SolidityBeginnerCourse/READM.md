@@ -1,3 +1,3 @@
-## Interactive Solidity 101 Course
+## Interactive Solidity Course
 
-Solidity Beginner Course based on the popular https://solidity-by-example.org/ contracts
+Based on the popular https://solidity-by-example.org/ contracts.
