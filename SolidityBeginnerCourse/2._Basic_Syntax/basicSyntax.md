@@ -13,4 +13,4 @@ Solidity is a *statically typed* language, which means that you need to specify 
 We also define the *visibility* of the variable, which specifies from where it can be accessed. In this case it's a `public` variable that can be accessed from inside and outside the contract. More on visibility later.
 
 ## ⭐️ Assignment
-- Create a new public state variable called name with the value "Alice".
+- Rename the contract to "HelloSolidity".
