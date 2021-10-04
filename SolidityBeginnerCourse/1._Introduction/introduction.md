@@ -6,13 +6,19 @@ This contract is a counter contract that has the functionality of increasing, de
 
 If we look at the top of the contract we can see some information about the contract like the license and the solidity version as well as the keyword `contract` and it’s name, `Counter`. We will cover these concepts in the next section about the **Basic Syntax**.
 
-With `uint public count` we declare a state variable of the type `uint` and that is publicly visible. We will cover these concepts in our sections about **Variables**, **Primitive Data Types** and **Visibility**.  
+With `uint public count` we declare a state variable of the type `uint` with the visibility `public`. We will cover these concepts in our sections about **Variables**, **Primitive Data Types** and **Visibility**.  
 
-We then create a get function that is defined with the `view` keyword and returns an uint type. Specifically it returns the `count` variable. There are two more functions in this contract, an `inc` and `dec` function that increase or decrease our count variable. 
+We then create a `get` function that is defined with the `view` keyword and returns an `uint` type. Specifically it returns the `count` variable. There are two more functions in this contract, an `inc` and `dec` function that increase or decrease our count variable.
 We will talk about these concepts in our sections about **Functions**, **View and Pure Functions** and **Reading and Writing to a State Variable**.
 
 ## Interacting with the IDE
-// video of the interactions with the IDE
+In this GIF we show you how can interact with your contract in the IDE to test its functionality.
+
+1. We compile the contract.
+2. We deploy the contract to the Javascript VM in our browser.
+3. We interact with the contract and test its `get`, `inc`, and `dec` functions.
+
+![](https://i.imgur.com/6W4AHMZ.gif)
 
 ## ⭐️ Assignment
 Throughout this course we will give you assignments to test and consolidate your newly acquired knowledge.
