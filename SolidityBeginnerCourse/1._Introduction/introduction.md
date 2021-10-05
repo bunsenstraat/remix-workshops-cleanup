@@ -18,7 +18,7 @@ In this GIF we show you how can interact with your contract in the IDE to test i
 2. We deploy the contract to the JavaScript VM in our browser.
 3. We interact with the contract and test its `get`, `inc`, and `dec` functions.
 
-<a href="https://i.imgur.com/6W4AHMZ.gif" target="_blank">Watch Contract Interaction</a>
+<a href="https://i.imgur.com/SgxMo0u.gif" target="_blank">Watch Contract Interaction</a>
 
 ## ⭐️ Assignment
 Throughout this course we will give you assignments to test and consolidate your newly acquired knowledge.
