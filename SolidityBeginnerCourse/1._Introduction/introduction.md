@@ -9,7 +9,7 @@ If we look at the top of the contract we can see some information about the cont
 With `uint public count` we declare a state variable of the type `uint` with the visibility `public`. We will cover these concepts in our sections about **Variables**, **Primitive Data Types** and **Visibility**.  
 
 We then create a `get` function that is defined with the `view` keyword and returns an `uint` type. Specifically it returns the `count` variable. There are two more functions in this contract, an `inc` and `dec` function that increase or decrease our count variable.
-We will talk about these concepts in our sections about **Functions**, **View and Pure Functions** and **Reading and Writing to a State Variable**.
+We will talk about these concepts in our sections about **Functions - Reading and Writing to a State Variable** and **Functions - View and pure**.
 
 ## Interacting with the IDE
 In this GIF we show you how can interact with your contract in the IDE to test its functionality.
