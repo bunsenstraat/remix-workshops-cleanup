@@ -1,4 +1,3 @@
-
 There are three different types of variables in Solidity, **State Variables**, **Local Variables**, and **Global Variables**.
 
 ## 1. State Variables
