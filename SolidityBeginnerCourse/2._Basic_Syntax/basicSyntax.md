@@ -15,6 +15,7 @@ We also define the *visibility* of the variable, which specifies from where it c
 Don't worry if you didn't understand some concepts like visibility, data types, or state variables we will look into them in the next sections.
 
 ## ⭐️ Assignment
-- Rename the contract to "MyContract".
-- Create a new public state variable called "name" of the type string.
-- Assign the value "Alice" to your new variable.
+1. Delete the HelloWorld contract and it's content.
+2. Create a new contract named "MyContract".
+3. The contract should have a public state variable called "name" of the type string.
+4. Assign the value "Alice" to your new variable.
