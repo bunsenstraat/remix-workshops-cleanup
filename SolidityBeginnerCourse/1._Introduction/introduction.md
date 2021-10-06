@@ -4,7 +4,7 @@ In this first section we will look at an example contract, give you a short prev
 
 This contract is a counter contract that has the functionality of increasing, decreasing and returning the state of a counter variable.
 
-If we look at the top of the contract we can see some information about the contract like the license (line 1) and the solidity version (line 2) as well as the keyword `contract` and it’s name, `Counter` (line 4). We will cover these concepts in the next section about the **Basic Syntax**.
+If we look at the top of the contract we can see some information about the contract like the license (line 1) and the Solidity version (line 2) as well as the keyword `contract` and it’s name, `Counter` (line 4). We will cover these concepts in the next section about the **Basic Syntax**.
 
 With `uint public count` (line 5) we declare a state variable of the type `uint` with the visibility `public`. We will cover these concepts in our sections about **Variables**, **Primitive Data Types** and **Visibility**.  
 
@@ -24,6 +24,6 @@ In this GIF we show you how can interact with your contract in the IDE to test i
 Throughout this course we will give you assignments to test and consolidate your newly acquired knowledge.
 
 Your first assignment is to:
-* Compile this contract
-* Deploy it to the JavaScript VM
-* Interact with your contract
+1. Compile this contract
+2. Deploy it to the JavaScript VM
+3. Interact with your contract

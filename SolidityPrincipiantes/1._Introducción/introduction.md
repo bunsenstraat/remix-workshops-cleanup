@@ -24,6 +24,6 @@ En este GIF te mostramos cómo puedes interactuar con tu contrato en el IDE para
 A lo largo de este curso, le asignaremos tareas para probar y consolidar sus conocimientos recién adquiridos.
 
 Tu primera tarea es:
-* Compilar este contrato
-* Implantarlo en la VM JavaScript
-* Interactuar con su contrato
+1. Compilar este contrato
+2. Implantarlo en la VM JavaScript
+3. Interactuar con su contrato
