@@ -12,10 +12,13 @@ With the keywords `int` and `int8` to `int256` we declare an integer type. These
 ### address
 Variables of the type `address` hold a 20-byte value, which is the size of an Ethereum address. There is also a special kind of Ethereum address, `address payable`, which can receive ether from the contract.
 
-All these types have default values, as shown in the contract.
+All these types have default values, as shown in the contract (line 29).
 
 You can learn more about these data types as well as Fixed Point Numbers, Byte Arrays, Strings, and more in the <a href="https://docs.soliditylang.org/en/latest/types.html" target="_blank">Solidity documentation</a>.
 
 Later in the course, we will look at data structures like **Mappings**, **Arrays**, **Enums**, and **Structs**.
 
 ## ⭐️ Assignment
+1. Create a new variable `newAddr` that is a `public` `address` and give at a value that is not the same as the available variable `addr`.
+2. Create a `public` variable called `neg` that is a negative number, decide upon the type.
+3. Create a new variable `newU` that has the smallest `uint` size type and the smallest `uint` value and is `public`.
