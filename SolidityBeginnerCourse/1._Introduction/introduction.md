@@ -4,11 +4,11 @@ In this first section we will look at an example contract, give you a short prev
 
 This contract is a counter contract that has the functionality of increasing, decreasing and returning the state of a counter variable.
 
-If we look at the top of the contract we can see some information about the contract like the license and the solidity version as well as the keyword `contract` and it’s name, `Counter`. We will cover these concepts in the next section about the **Basic Syntax**.
+If we look at the top of the contract we can see some information about the contract like the license (line 1) and the solidity version (line 2) as well as the keyword `contract` and it’s name, `Counter` (line 4). We will cover these concepts in the next section about the **Basic Syntax**.
 
-With `uint public count` we declare a state variable of the type `uint` with the visibility `public`. We will cover these concepts in our sections about **Variables**, **Primitive Data Types** and **Visibility**.  
+With `uint public count` (line 5) we declare a state variable of the type `uint` with the visibility `public`. We will cover these concepts in our sections about **Variables**, **Primitive Data Types** and **Visibility**.  
 
-We then create a `get` function that is defined with the `view` keyword and returns an `uint` type. Specifically it returns the `count` variable. There are two more functions in this contract, an `inc` and `dec` function that increase or decrease our count variable.
+We then create a `get` function (line 8) that is defined with the `view` keyword and returns an `uint` type. Specifically it returns the `count` variable. There are two more functions in this contract, an `inc` (line 13) and `dec` (line 18) function that increase or decrease our count variable.
 We will talk about these concepts in our sections about **Functions - Reading and Writing to a State Variable** and **Functions - View and pure**.
 
 ## Interacting with the IDE
