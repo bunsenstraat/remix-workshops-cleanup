@@ -1,3 +1,3 @@
-## Interactive Solidity Course
+## Curso interactivo de Solidity
 
-Learn the most important Solidity beginner concepts interactively, based on the popular https://solidity-by-example.org/ contracts.
+Curso para principiantes de Solidity basado en los populares contratos de https://solidity-by-example.org/.
