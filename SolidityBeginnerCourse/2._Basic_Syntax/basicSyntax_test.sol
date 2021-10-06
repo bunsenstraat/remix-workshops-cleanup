@@ -10,6 +10,6 @@ contract MyTest {
   }
   
   function checkName() public returns (bool) {
-    return Assert.equal(foo.name(), string("Alice"), "initial value is not correct");
+    return Assert.equal(foo.name(), string("Alice"), "Value is not correct");
   }
 }
