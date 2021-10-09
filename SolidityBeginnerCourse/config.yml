@@ -22,5 +22,5 @@ steps:
     path: 5.3_Functions_-_Modifiers_and_Constructors
   - name: 5.4 Functions - Inputs and Outputs
     path: 5.4_Functions_-_Inputs_and_Outputs
-  - name: 6._Visibility
-    path: 6. Visibility
+  - name: 6. Visibility
+    path: 6._Visibility
