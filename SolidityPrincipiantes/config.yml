@@ -5,20 +5,3 @@ summary: Curso para principiantes de Solidity basado en los populares contratos 
 level: 1
 tags: 
   - Solidity
-steps:
-  - name: 1. Introduction
-    path: 1._Introduction
-  - name: 2. Basic Syntax
-    path: 2._Basic_Syntax
-  - name: 3. Primitive Data Types
-    path: 3._Primitive_Data_Types
-  - name: 4. Variables
-    path: 4._Variables
-  - name: 5.1 Functions - Reading and Writing to a State Variable
-    path: 5.1_Functions_-_Reading_and_Writing_to_a_State_Variable
-  - name: 5.2 Functions - View and pure
-    path: 5.2_Functions_-_View_and_pure
-  - name: 5.3 Functions - Modifiers and Constructors
-    path: 5.3_Functions_-_Modifiers_and_Constructors
-  - name: 5.4 Functions - Inputs and Outputs
-    path: 5.4_Functions_-_Inputs_and_Outputs
