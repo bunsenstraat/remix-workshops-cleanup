@@ -4,12 +4,12 @@ There are four types of visibilities that are defined with the keywords: `extern
 
 They regulate if functions and state variables can be called from inside the contract, from contracts that derive from the contract (child contracts), or other contracts and transactions.
 
-| Keyword  	| - 	| Inside Contract 	| Child Contract 	| Other Contracts 	|
-|----------	|---	|-----------------	|----------------	|-----------------	|
-| private  	| : 	|       Yes       	|       No       	|        No       	|
-| internal 	| : 	|       Yes       	|       Yes      	|        No       	|
-| public   	| : 	|       Yes       	|       Yes      	|       Yes       	|
-| external 	| : 	|        No       	|       No       	|       Yes       	|
+|              	|    -    	| Inside Contract 	| Child Contract 	| Other Contracts 	|
+|--------------	|---------	|-----------------	|----------------	|-----------------	|
+| **private**  	|    -    	|       Yes       	|       No       	|        No       	|
+| **internal** 	|    -    	|       Yes       	|       Yes      	|        No       	|
+| **public**   	|    -    	|       Yes       	|       Yes      	|       Yes       	|
+| **external** 	|    -    	|        No       	|       No       	|       Yes       	|
 
 *State variables can not be `external`.
 
