@@ -24,3 +24,15 @@ steps:
     path: functions-inputs-and-outputs
   - name: 6. Visibility
     path: visibility
+  - name: 7.1 Control Flow - If/Else
+    path: control-flow-if-else
+  - name: 7.2 Control Flow - Loops
+    path: control-flow-loops
+  - name: 8.1 Data Structures - Arrays
+    path: data-structures-arrays
+  - name: 8.2 Data Structures - Mappings
+    path: data-structures-mappings
+  - name: 8.3 Data Structures - Structs
+    path: data-structures-structs
+  - name: 8.4 Data Structures - Enums
+    path: data-structures-enums
