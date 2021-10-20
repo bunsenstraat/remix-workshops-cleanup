@@ -1,11 +1,11 @@
-Solidity supports different control flow statements that determine which parts of the contract are going to be executed. The conditional statement If/Else enables contracts to make decisions depending on whether boolean conditions evaluate to true or false.
+Solidity supports different control flow statements that determine which parts of the contract are going to be executed. The conditional *If/Else statement* enables contracts to make decisions depending on whether boolean conditions evaluate to `true` or `false`.
 
 Solidity differentiates between three different If/Else statements: `if`, `else`, and `else if`.
 
 ### if
 The `if` statement is the most basic statement that allows the contract to perform an action based on a boolean expression. 
 
-In this contract’s `foo` function the if statement (line 6) checks if `x` is smaller than `10`. If the statement is true, the function returns `0`.
+In this contract’s `foo` function (line 5) the if statement (line 6) checks if `x` is smaller than `10`. If the statement is true, the function returns `0`.
 
 ### else
 The `else` statement enables our contract to perform an action if conditions are not met.
