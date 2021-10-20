@@ -1,17 +1,29 @@
 The `visibility` specifier is used to control who has access to functions and state variables.
 
-There are four types of visibilities that are defined with the keywords: `external`, `public`, `internal`, and `private`. 
+There are four types of visibilities: `external`, `public`, `internal`, and `private`. 
 
 They regulate if functions and state variables can be called from inside the contract, from contracts that derive from the contract (child contracts), or other contracts and transactions.
 
-|              	|    -    	| Inside Contract 	| Child Contract 	| Other Contracts 	|
-|--------------	|---------	|-----------------	|----------------	|-----------------	|
-| **private**  	|    -    	|       Yes       	|       No       	|        No       	|
-| **internal** 	|    -    	|       Yes       	|       Yes      	|        No       	|
-| **public**   	|    -    	|       Yes       	|       Yes      	|       Yes       	|
-| **external** 	|    -    	|        No       	|       No       	|       Yes       	|
+### private
+- Can be called from inside the contract
+- Can not be called from a child contract
+- Can not be called from other contracts or transactions
 
-*State variables can not be `external`.
+### internal
+- Can be called from inside the contract
+- Can be called from a child contract
+- Can not be called from other contracts or transactions
+
+### public
+- Can be called from inside the contract
+- Can be called from a child contract
+- Can be be called from other contracts or transactions
+
+### external
+- Can not be called from inside the contract
+- Can not be called from a child contract
+- Can be be called from other contracts or transactions
+- State variables can not be `external`
 
 In this example, we have two contracts, the `Base` contract (Line 4) and the `Child` contract (Line 55) which inherits the functions and state variables from the `Base` contract.
 

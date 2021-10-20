@@ -7,20 +7,20 @@ tags:
   - Solidity
 steps:
   - name: 1. Introduction
-    path: 1._Introduction
+    path: introduction
   - name: 2. Basic Syntax
-    path: 2._Basic_Syntax
+    path: basic-syntax
   - name: 3. Primitive Data Types
-    path: 3._Primitive_Data_Types
+    path: primitive-data-types
   - name: 4. Variables
-    path: 4._Variables
+    path: variables
   - name: 5.1 Functions - Reading and Writing to a State Variable
-    path: 5.1_Functions_-_Reading_and_Writing_to_a_State_Variable
+    path: functions-reading-and-writing
   - name: 5.2 Functions - View and pure
-    path: 5.2_Functions_-_View_and_pure
+    path: functions-view-and-pure
   - name: 5.3 Functions - Modifiers and Constructors
-    path: 5.3_Functions_-_Modifiers_and_Constructors
+    path: functions-modifiers-and-constructors
   - name: 5.4 Functions - Inputs and Outputs
-    path: 5.4_Functions_-_Inputs_and_Outputs
+    path: functions-inputs-and-outputs
   - name: 6. Visibility
-    path: 6._Visibility
+    path: visibility
