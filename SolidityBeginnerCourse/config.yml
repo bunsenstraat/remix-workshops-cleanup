@@ -36,3 +36,11 @@ steps:
     path: data-structures-structs
   - name: 8.4 Data Structures - Enums
     path: data-structures-enums
+  - name: 9. Data Locations
+    path: data-locations
+  - name: 10.1 Transactions - Ether and Wei 
+    path: transactions-ether-and-wei 
+  - name: 10.2 Transactions - Gas and Gas Price 
+    path: transactions-gas-and-gas-price
+  - name: 10.3 Transactions - Sending Ether 
+    path: transactions-sending-ether

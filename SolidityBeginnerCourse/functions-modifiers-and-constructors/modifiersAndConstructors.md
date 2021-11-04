@@ -10,14 +10,14 @@ The function `changeOwner` (line 33) can change this ownership. It takes an inpu
 But this function cannot simply be executed under all conditions, it has two modifiers `onlyOwner` and `validAddress`.
 
 Let's look at `onlyOwner` first (line 18). 
-Function modifiers are defined with the `modifier` keyword and a unique name, they can also have parameters. 
+Function modifiers are defined with the `modifier` keyword and a unique name; they can also have parameters. 
 
 The underscore `_` (line 23) is used inside modifiers to represent the rest of the code that will be executed in the modified functions’ body.
 The code you place before the underscore in the modifier will be executed before the code in the body of the modified function. The code after it will be executed after the code of the mofified function.
 
-In this case, the `require` function (line 19) checks if the address executing the contract is the same as the value stored in the variable `owner`. If it does, the rest of the code will be executed, otherwise, it will throw an error. 
+In this case, the `require` function (line 19) checks if the address executing the contract is the same as the value stored in the variable `owner`. If it is, the rest of the code will be executed, otherwise, it will throw an error. 
 
-You can learn more about `assert` and `require` in the <a href="https://docs.soliditylang.org/en/latest/control-structures.html#error-handling-assert-require-revert-and-exceptions">Solidity documentation</a>, which is often used to check for conditions and throw errors if they are not met. 
+You can learn more about `assert` and `require` in the <a href="https://docs.soliditylang.org/en/latest/control-structures.html#error-handling-assert-require-revert-and-exceptions">Solidity documentation</a>, they are used to check for conditions and throw errors if they are not met. 
 
 The `validAddress` modifier (line 28) has a parameter of type `address` and checks if the provided address is valid. If it is, it continues to execute the code.
 
