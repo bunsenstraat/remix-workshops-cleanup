@@ -13,3 +13,7 @@ If the function takes inputs, like our `set` function you need to specify the pa
 You can then set the visibility and declare them view or pure as we do for the `get` function if they don't modify the state. Our get function also returns values so we have to specify the return types, in this case, it’s a `uint` since the state variable `num` that is returned is a `uint`. 
 
 We will explore further particularities of Solidity functions in more detail in the following sections.
+
+## ⭐️ Assignment
+1. Create a public state variable called `b` that is of type `bool` and initialize it to `true`.
+2. Create a public function called `get_b` that returns the value of `b`.

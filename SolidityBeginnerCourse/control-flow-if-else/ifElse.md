@@ -16,3 +16,11 @@ In this contract, the `foo` function uses the `else` statement (line 10) to retu
 With the `else if` statement we can combine several conditions.
 
 If the first condition (line 6) of the foo function is not met, but the condition of the `else if` statement (line 8) becomes true, the function returns `1`.
+
+## ⭐️ Assignment
+Create a new function called `evenCheck` in the `IfElse` contract. 
+- That takes in a `uint` as an argument.
+- The function returns `true` if the argument is even, and `false` if the argument is odd.
+- Use a ternery operator to return the result of the `evenCheck` function.
+
+Tip: The modulo (%) operator produces the remainder of an integer division.

@@ -28,3 +28,4 @@ Arrays however can be used as parameters, as shown in the function `arrayInput` 
 You have to be cautious with arrays of arbitrary size because of their gas consumption. The function execution might fail if the gas costs are very high because very big arrays are used as inputs for example while it might work for smaller ones.
 
 ## ⭐️ Assignment
+Create a new function called `returnTwo` that returns the values -2 and true without a return statement.

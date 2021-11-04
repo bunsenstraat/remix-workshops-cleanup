@@ -17,3 +17,8 @@ The `continue` statement is used to skip the remaining code block and start the 
 
 ### break
 The `break` statement is used to exit a loop. In this contract, the break statement (line 14) will cause the for loop to be terminated after the sixth iteration.
+
+## ⭐️ Assignment
+1. Create a public `uint` state variable called count in the `Loop` contract.
+2. At the end of the for loop, increment the count variable by 1.
+3. Try to get the count variable to be equal to 9, but make sure you don’t edit the `break` statement.

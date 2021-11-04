@@ -17,3 +17,7 @@ In this example, we use `block.timestamp` (line 14) to get a Unix timestamp of w
 A list of all Global Variables is available in the <a href="https://docs.soliditylang.org/en/latest/cheatsheet.html?highlight=Variables#global-variables" target="_blank">Solidity documentation</a>.
 
 ## ⭐️ Assignment
+1. Create a new public state variable called blockNumber.
+2. Inside the function `doSomething()` assign the state variable `blockNumber` the value of the current block number.
+
+Tip: Look into the globale variables section of the Solidity documentation to find out what the current block number is.

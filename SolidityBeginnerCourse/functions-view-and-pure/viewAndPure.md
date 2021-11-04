@@ -32,3 +32,6 @@ From the <a href="https://docs.soliditylang.org/en/latest/contracts.html#pure-fu
 You declare a pure function with the keyword `pure`. In this contract, `add` (line 13) is a pure function. This function takes the parameters `i` and `j`, and returns the sum of them. It neither reads nor modifies the state variable `x`.
 
 In Solidity development you need to optimise your code for saving computation cost (gas cost) of the network. Declaring functions view and pure can save gas cost and make the code more readable and easier to maintain. You know that pure functions don’t have any side effects and will always return the same result if you pass in the same arguments.
+
+## ⭐️ Assignment
+Create a a function called `addToX2` that takes the parameter `y` and updates the state variable `x` with the sum of the parameter and the state variable `x`.
