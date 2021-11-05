@@ -1,7 +1,6 @@
 pragma solidity ^0.8.3;
 import "remix_tests.sol";
-import "./structs
-.sol";
+import "./structs.sol";
 
 contract MyTest {
   Todos foo;
