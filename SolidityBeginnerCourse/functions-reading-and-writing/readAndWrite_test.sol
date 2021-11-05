@@ -1,6 +1,6 @@
 pragma solidity ^0.8.3;
 import "remix_tests.sol";
-import "../answers/readAndWrite_answer.sol";
+import "./readAndWrite.sol";
 
 contract MyTest {
   SimpleStorage foo;
