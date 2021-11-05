@@ -1,6 +1,6 @@
 pragma solidity ^0.8.3;
 import "remix_tests.sol";
-import ".viewAndPure.sol";
+import "./viewAndPure.sol";
 
 contract MyTest {
   ViewAndPure foo;
