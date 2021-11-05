@@ -16,3 +16,8 @@ For sending a transaction the sender has to pay the *gas* fee (*gas price  gas*)
 When sending a transaction, the sender specifies the maximum amount of gas that they are willing to pay for. If they set the limit too low, their transaction can run out of *gas* before being completed, reverting any changes being made. In this case, the *gas* was consumed and can’t get refunded.
 
 Learn more about *gas* on [ethereum.org](https://ethereum.org/en/developers/docs/gas/).
+
+## ⭐️ Assignment
+Create a new `public` state variable in the `Gas` contract called `cost` of the type `uint`. Store in it the value of the gas cost for deploying the contract, including the value you are storing.
+
+Tip: You can check in the Remix terminal the details of a transaction including the gas cost. You can also use the Remix plugin *Gas Profiler* to check the gas cost of transactions.
