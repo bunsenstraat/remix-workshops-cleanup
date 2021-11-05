@@ -1,6 +1,6 @@
 pragma solidity ^0.8.3;
 import "remix_tests.sol";
-import ".variables.sol";
+import "./variables.sol";
 
 contract MyTest {
   Variables foo;
