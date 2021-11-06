@@ -25,3 +25,6 @@ In this example, we have two contracts, the `Base` contract (line 4) and the `Ch
 When you uncomment the `testPrivateFunc` (lines 58-60) you get an error because the child contract doesn’t have access to the private function `privateFunc` from the `Base` contract.
 
 If you compile and deploy the two contracts you will not be able to call the functions `privateFunc` and `internalFunc` directly only via `testPrivateFunc` and `testInternalFunc`.
+
+## ⭐️ Assignment
+Create a new function in the `Child` contract called `testInternalVar` which returns the values of all state variables from the `Base` contract that are possibile to return.
