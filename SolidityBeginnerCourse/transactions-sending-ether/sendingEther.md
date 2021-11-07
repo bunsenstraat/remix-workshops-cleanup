@@ -3,7 +3,7 @@ In this section, we will learn how a contract can send and receive Ether.
 ### Sending Ether
 We have three different options to transfer Ether: `transfer()`, `send()` and `call()`.
 
-*transfer*
+#### **transfer**
 `<address payable>.transfer(uint256 amount)`
 * `transfer()` throws an exception on failure 
 * Forwards a fixed 2300 gas stipend
@@ -12,7 +12,7 @@ We have three different options to transfer Ether: `transfer()`, `send()` and `c
 An example of `transfer()` can be seen in the `SendEther` contract (line 35).
 `Transfer()` is not recommended to be used anymore.
 
-*send*
+#### **send**
 `<address payable>.send(uint256 amount) returns (bool)`
 * `send()` returns false on failure 
 * Forwards a fixed 2300 gas stipend
@@ -21,7 +21,7 @@ An example of `transfer()` can be seen in the `SendEther` contract (line 35).
 An example of `send()` can be seen in the `SendEther` contract (line 41).
 `Send()` is not recommended to be used anymore.
 
-*call*
+#### **call**
 `<address>.call(bytes memory) returns (bool, bytes memory)`
 * `call()` returns false on failure 
 * Forwards the maximum of gas, but this is adjustable
