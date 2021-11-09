@@ -1,7 +1,7 @@
 --- 
 id: soliditybeginner
 name: Solidity Beginner Course
-summary: Solidity Beginner Course based on the popular https://solidity-by-example.org/ contracts
+summary: Solidity Beginner Course based on the popular https://solidity-by-example.org/ contracts. Developed by the p2p learning platform https://dacade.org.
 level: 1
 tags: 
   - Solidity
