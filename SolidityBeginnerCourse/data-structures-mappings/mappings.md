@@ -24,6 +24,8 @@ We set a new value for a key by providing the mappings name and its key in brack
 ### Removing values
 We can use the delete operator to delete a value associated with a key, which means as for arrays to set the default value to 0.
 
+<a href="https://www.youtube.com/watch?v=tO3vVMCOts8" target="_blank">Watch a video tutorial on Mappings</a>.
+
 ## ⭐️ Assignment
 1. Create a public mapping `balances` that associates the key type `address` to the value type `uint`.
 2. Change the functions `get` and `remove` to work with the mapping balances.

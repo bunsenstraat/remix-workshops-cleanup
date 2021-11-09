@@ -20,6 +20,8 @@ We can update the enum value of a variable by assigning it the `uint` representi
 ### Removing an enum value
 We can use the delete operator to delete the enum value of the variable, which means as for arrays and mappings to set the default value to 0.
 
+<a href="https://www.youtube.com/watch?v=yJbx07N15j0" target="_blank">Watch a video tutorial on Enums</a>.
+
 ## ⭐️ Assignment
 1. Define an enum type called `Size` with the members `S`, `M`, and `L`.
 2. Initialize the variable `sizes` of the enum type `Size`.

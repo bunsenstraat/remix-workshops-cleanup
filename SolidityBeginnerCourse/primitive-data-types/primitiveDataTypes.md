@@ -18,6 +18,8 @@ You can learn more about these data types as well as Fixed Point Numbers, Byte A
 
 Later in the course, we will look at data structures like **Mappings**, **Arrays**, **Enums**, and **Structs**.
 
+<a href="https://www.youtube.com/watch?v=8Tj-Th_S7NU" target="_blank">Watch a video tutorial on Primitive Data Types</a>.
+
 ## ⭐️ Assignment
 1. Create a new variable `newAddr` that is a `public` `address` and give at a value that is not the same as the available variable `addr`.
 2. Create a `public` variable called `neg` that is a negative number, decide upon the type.

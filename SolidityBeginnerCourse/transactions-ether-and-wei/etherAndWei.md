@@ -12,6 +12,8 @@ One `gwei` (giga-wei) is equal to 1,000,000,000 (10^9) `wei`.
 `ether`
 One `ether` is equal to 1,000,000,000,000,000,000 (10^18) `wei` (line 11).
 
+<a href="https://www.youtube.com/watch?v=ybPQsjssyNw" target="_blank">Watch a video tutorial on Ether and Wei</a>.
+
 ## ⭐️ Assignment
 1. Create a `public` `uint` called `oneGWei` and set it to 1 `gwei`.
 2. Create a `public` `uint` called `isOneGWei` and set it to the result of a comparison operation between 1 gwei and 10^9.

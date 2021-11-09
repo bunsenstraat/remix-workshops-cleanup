@@ -24,7 +24,9 @@ The `validAddress` modifier (line 28) has a parameter of type `address` and chec
 ### Constructor
 A constructor function is executed upon contract creation. You can use it to run contract initialization code. The constructor can have parameters and is especially useful when you don’t know certain initialization values before the deployment of the contract. 
 
-You declare a constructor with the `constructor` keyword. The constructor in this contract (line 11) set’s the initial value of the owner variable upon contract creation. 
+You declare a constructor with the `constructor` keyword. The constructor in this contract (line 11) set’s the initial value of the owner variable upon contract creation.
+
+<a href="https://www.youtube.com/watch?v=b6FBWsz7VaI" target="_blank">Watch a video tutorial on Function Modifiers</a>.
 
 ## ⭐️ Assignment
 1. Create a new function `increaseX` in the contract. The function should take an input parameter of type `uint` and increase the value of the variable `x` by the value of the input parameter.
