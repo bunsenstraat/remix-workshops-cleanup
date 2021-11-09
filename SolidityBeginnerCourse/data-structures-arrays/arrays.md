@@ -1,6 +1,6 @@
 In the next sections, we will look into data structures that we use to organize and store our data in Solidity.
 
-*Arrays*, *mappings* and *structs* are all *reference types*. Unlike *value types* (e.g. *booleans* or *integers*) reference types don't store their value directly. Instead, they store the location where the value is being stored. Multiple reference type variables could reference the same location and a change in one variable would affect the others, therefore they need to be handled carefully.
+*Arrays*, *mappings* and *structs* are all *reference types*. Unlike *value types* (e.g. *booleans* or *integers*) reference types don't store their value directly. Instead, they store the location where the value is being stored. Multiple reference type variables could reference the same location, and a change in one variable would affect the others, therefore they need to be handled carefully.
 
 In Solidity an array stores an ordered list of values of the same type that are indexed numerically.
 
@@ -18,13 +18,13 @@ We can initialize the elements of an array all at once (line 7), or initiate new
 We access elements inside an array by providing the name of the array and the index in brackets (line 12).
 
 ### Adding array elements
-With the push() member function we add an element to the end of a dynamic array (line 25). 
+With the `push()` member function, we add an element to the end of a dynamic array (line 25). 
 
 ### Removing array elements
-With the pop() member function we delete the last element of a dynamic array (line 31). 
+With the `pop()` member function, we delete the last element of a dynamic array (line 31). 
 
-We can use the delete operator to remove an element with a specific index from an array (line 42). 
-When we remove an element with the delete operator all other elements stay the same, which means that the length of the array will stay the same and we are creating a gap in our array. 
+We can use the `delete` operator to remove an element with a specific index from an array (line 42). 
+When we remove an element with the `delete` operator all other elements stay the same, which means that the length of the array will stay the same, and we are creating a gap in our array. 
 If the order of the array is not important we can move the last element of the array to the place of the deleted element (line 46), or use a mapping which might be a better choice if we plan to remove elements in our data structure.
 
 ### Array length

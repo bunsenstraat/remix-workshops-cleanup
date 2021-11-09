@@ -7,7 +7,7 @@ The `returnMany` function (line 6) shows how to return multiple values.
 You will often return multiple values. It could be a function that collects outputs of various functions and returns them in a single function call for example. 
 
 The `named` function (line 19) shows how to name return values.
-Naming return values helps with the readability of your contracts. Named return values make it easier to understand what values and in which order are returned. You can also assign values to a name.
+Naming return values helps with the readability of your contracts. Named return values make it easier to understand what values, and in which order are returned. You can also assign values to a name.
 
 The `assigned` function (line 33) shows how to assign values to a name.
 When you assign values to a name you can omit (leave out) the return statement and return them individually.

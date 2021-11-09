@@ -5,7 +5,7 @@ There are three different types of variables in Solidity, **State Variables**, *
 In this contract, we have two state variables, the string `text` on line 6 and the uint `num` (line 7).
 
 ## 2. Local Variables
-*Local Variables* are stored in the *memory*, their values are only accessible within the function they are defined in. Local Variables are not stored on the blockchain.
+*Local Variables* are stored in the *memory* their values are only accessible within the function they are defined in. Local Variables are not stored on the blockchain.
 In this contract, the uint `i` (line 11) is a local variable. 
 
 ## 3. Global Variables
@@ -19,7 +19,7 @@ A list of all Global Variables is available in the <a href="https://docs.solidit
 Watch video tutorials on <a href="https://www.youtube.com/watch?v=hl692-xJPUQ" target="_blank">State Variables</a>, <a href="https://www.youtube.com/watch?v=5Gxzwn0SQDU" target="_blank">Local Variables</a>, and <a href="https://www.youtube.com/watch?v=ryA86ZiSD-w" target="_blank">Global Variables</a>.
 
 ## ⭐️ Assignment
-1. Create a new public state variable called blockNumber.
+1. Create a new public state variable called `blockNumber`.
 2. Inside the function `doSomething()` assign the state variable `blockNumber` the value of the current block number.
 
 Tip: Look into the global variables section of the Solidity documentation to find out what the current block number is.

@@ -23,4 +23,4 @@ Later in the course, we will look at data structures like **Mappings**, **Arrays
 ## ⭐️ Assignment
 1. Create a new variable `newAddr` that is a `public` `address` and give at a value that is not the same as the available variable `addr`.
 2. Create a `public` variable called `neg` that is a negative number, decide upon the type.
-3. Create a new variable `newU` that has the smallest `uint` size type and the smallest `uint` value and is `public`.
+3. Create a new variable, `newU` that has the smallest `uint` size type and the smallest `uint` value and is `public`.
