@@ -63,3 +63,13 @@ Solidity makes a distinction between two different flavors of the address data t
 `address payable`: Holds a 20-byte value and can receive Ether via its members transfer and send.
 
 If you change the parameter type for the functions `sendViaTransfer` and `sendViaSend` (line 33 and 38) from `payable address` to `address` you won’t be able to use `transfer()` (line 35) or `send()` (line 41).
+
+## ⭐️ Assignment
+Build a charity contract that receives Ether, which can be withdrawn by a beneficiary.
+
+1. Create a contract called `Charity`.
+2. Add a public state variable called `owner` of the type address.
+3. Create a donate function that is public and payable without any parameters or function code.
+4. Create a withdraw function that is public and sends the total balance of the contract to the `owner` address.
+
+Tip: Test your contract by deploying it from one account and then sending Ether to it from another account. Then execute the withdraw function.
