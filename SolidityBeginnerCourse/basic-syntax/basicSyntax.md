@@ -14,9 +14,9 @@ We also define the *visibility* of the variable, which specifies from where it c
 
 Don't worry if you didn't understand some concepts like *visibility*, *data types*, or *state variables* we will look into them in the next sections.
 
-To help you understand the code, we will link in all following sections to video tutorials from the creator of these contracts.
+To help you understand the code, we will link in all following sections to video tutorials from the <a href="https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA" target="_blank">creator</a> of the Solidity by Example contracts.
 
-<a href="https://www.youtube.com/watch?v=g_t0Td4Kr6M" target="_blank">Watch a video tutorial on basic syntax</a>.
+<a href="https://www.youtube.com/watch?v=g_t0Td4Kr6M" target="_blank">Watch a video tutorial on Basic Syntax</a>.
 
 ## ⭐️ Assignment
 1. Delete the HelloWorld contract and its content.
