@@ -8,9 +8,9 @@ You can divide functions in Solidity into two types:
 
 You define a function with the `function` keyword followed by a unique name. 
 
-If the function takes inputs, like our `set` function you need to specify the parameter types and parameter names. A common convention is to use an underscore as a prefix for the parameter name to separate them from state variables.
+If the function takes inputs, like our `set` function you need to specify the parameter types and parameter names. A common convention is to use an underscore as a prefix for the parameter name to distinguish them from state variables.
 
-You can then set the visibility and declare them view or pure as we do for the `get` function if they don't modify the state. Our get function also returns values, so we have to specify the return types, in this case, it's a `uint` since the state variable `num` that is returned is a `uint`. 
+You can then set the visibility and declare them `view` or `pure` as we do for the `get` function if they don't modify the state. Our `get` function also returns values, so we have to specify the return types, in this case, it's a `uint` since the state variable `num` that is returned is a `uint`. 
 
 We will explore further particularities of Solidity functions in more detail in the following sections.
 
