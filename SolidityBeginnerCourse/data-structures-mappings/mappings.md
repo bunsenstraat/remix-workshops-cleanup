@@ -14,9 +14,9 @@ In this contract, we are creating the public mapping `myMap` (line 6) that assoc
 
 ### Accessing values
 The syntax for interacting with key-value pairs of mappings is similar to that of arrays.
-To find the value associated with a specific key, you provide the name of the mapping and the key in brackets (line 11). 
+To find the value associated with a specific key, we provide the name of the mapping and the key in brackets (line 11). 
 
-In contrast to arrays, you won't get an error if you try to access the value of a key whose value has not been set yet. When you create a mapping every possible key is mapped to the default value 0.
+In contrast to arrays, we won't get an error if we try to access the value of a key whose value has not been set yet. When we create a mapping every possible key is mapped to the default value 0.
 
 ### Setting values
 We set a new value for a key by providing the mappings name and its key in brackets and assigning it a new value (line 16).

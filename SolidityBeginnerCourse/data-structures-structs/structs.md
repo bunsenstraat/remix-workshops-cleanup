@@ -21,4 +21,4 @@ To update a structs’ member we also use the dot operator and assign it a new v
 <a href="https://www.youtube.com/watch?v=kYBHq7EmFBc" target="_blank">Watch a video tutorial on Structs</a>.
 
 ## ⭐️ Assignment
-Create a function `remove` that takes a `uint` as a parameter and deletes a struct member with the given index in the todos mapping.
+Create a function `remove` that takes a `uint` as a parameter and deletes a struct member with the given index in the `todos` mapping.

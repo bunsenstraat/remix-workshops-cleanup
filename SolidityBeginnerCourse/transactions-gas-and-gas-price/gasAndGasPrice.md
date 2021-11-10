@@ -6,9 +6,9 @@ As we have seen in the previous section, executing code via transactions on the 
 ### Gas price
 The *gas* that fuels Ethereum is sometimes compared to the gas that fuels a car. The amount of gas your car consumes is mostly the same, but the price you pay for gas depends on the market.
 
-Similarly, the amount of *gas* that a transaction costs is always the same for the same computational work that is associated with it, but the price that the sender of the transaction is willing to pay for the *gas* is up to them, and the demand in the market. Transactions with higher *gas prices* are going through faster transactions with very low *gas prices* might not go through at all.
+Similarly, the amount of *gas* that a transaction costs is always the same for the same computational work that is associated with it, but the price that the sender of the transaction is willing to pay for the *gas* is up to them, and the demand in the market. Transactions with higher *gas prices* are going through faster; transactions with very low *gas prices* might not go through at all.
 
-For sending a transaction, the sender has to pay the *gas* fee (*gas price  gas*) upon execution of the transaction. If *gas* is left after the execution is completed, the sender gets refunded.
+For sending a transaction, the sender has to pay the *gas* fee (gas_price * gas) upon execution of the transaction. If *gas* is left after the execution is completed, the sender gets refunded.
 
 *Gas* prices are denoted in gwei.
 
@@ -22,4 +22,4 @@ Learn more about *gas* on <a href="https://ethereum.org/en/developers/docs/gas/"
 ## ⭐️ Assignment
 Create a new `public` state variable in the `Gas` contract called `cost` of the type `uint`. Store the value of the gas cost for deploying the contract in it, including the cost for the value you are storing.
 
-Tip: You can check in the Remix terminal the details of a transaction, including the gas cost. You can also use the Remix plugin *Gas Profiler* to check the gas cost of transactions.
+Tip: You can check in the Remix terminal the details of a transaction, including the gas cost. You can also use the Remix plugin *Gas Profiler* to check upon the gas cost of transactions.

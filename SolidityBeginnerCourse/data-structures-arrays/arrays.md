@@ -4,12 +4,12 @@ In the next sections, we will look into data structures that we use to organize 
 
 In Solidity an array stores an ordered list of values of the same type that are indexed numerically.
 
-There are two types of sizes for arrays, compile-time fixed size or dynamic size. For fixed-size arrays, we need to declare the size of the array before it is compiled. The size of dynamic sized arrays can be changed after the contract has been compiled.
+There are two types of arrays, compile-time *fixed-size* or *dynamic arrays*. For fixed-size arrays, we need to declare the size of the array before it is compiled. The size of dynamic arrays can be changed after the contract has been compiled.
 
 ### Declaring arrays
-We declare a fixed size array by providing its type, array size as an integer in square brackets, visibility, and name (line 9).
+We declare a fixed-size array by providing its type, array size as an integer in square brackets, visibility, and name (line 9).
 
-We declare a dynamic sized array in the same manner but don’t provide an array size and leave the brackets empty (line 6).
+We declare a dynamic array in the same manner but don’t provide an array size and leave the brackets empty (line 6).
 
 ### Initializing arrays
 We can initialize the elements of an array all at once (line 7), or initiate new elements one by one (arr[0] = 1;). If we declare an array, we automatically initialize its elements with the default value 0 (line 9).
@@ -33,5 +33,5 @@ With the length member, we can read the number of elements that are stored in an
 <a href="https://www.youtube.com/watch?v=vTxxCbwMPwo" target="_blank">Watch a video tutorial on Arrays</a>.
 
 ## ⭐️ Assignment
-1. Initialize a public fixed sized array called `arr3` with the values 0, 1, 2. Make the size as small as possible.
+1. Initialize a public fixed-sized array called `arr3` with the values 0, 1, 2. Make the size as small as possible.
 2. Change the `getArr()` function to return the value of `arr3`.
