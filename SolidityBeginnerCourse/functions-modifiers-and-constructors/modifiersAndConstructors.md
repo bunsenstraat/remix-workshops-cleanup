@@ -31,6 +31,6 @@ You declare a constructor with the `constructor` keyword. The constructor in thi
 ## ⭐️ Assignment
 1. Create a new function, `increaseX` in the contract. The function should take an input parameter of type `uint` and increase the value of the variable `x` by the value of the input parameter.
 2. Make sure that x can only be increased.
-3. The function `incressX` should have an empty function body.
+3. The function `increaseX` should have an empty function body.
 
 Tip: Use modifiers.
