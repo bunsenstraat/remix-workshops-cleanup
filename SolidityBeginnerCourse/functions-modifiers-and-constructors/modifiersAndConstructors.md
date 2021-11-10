@@ -17,7 +17,7 @@ The code you place before the underscore in the modifier will be executed before
 
 In this case, the `require` function (line 19) checks if the address executing the contract is the same as the value stored in the variable `owner`. If it is, the rest of the code will be executed, otherwise it will throw an error. 
 
-You can learn more about `assert` and `require` in the <a href="https://docs.soliditylang.org/en/latest/control-structures.html#error-handling-assert-require-revert-and-exceptions">Solidity documentation</a>, they are used to check for conditions and throw errors if they are not met. 
+You can learn more about `assert` and `require` in the <a href="https://docs.soliditylang.org/en/latest/control-structures.html#error-handling-assert-require-revert-and-exceptions" target="_blank">Solidity documentation</a>, they are used to check for conditions and throw errors if they are not met. 
 
 The `validAddress` modifier (line 28) has a parameter of type `address` and checks if the provided address is valid. If it is, it continues to execute the code.
 

@@ -36,14 +36,15 @@ As we discussed in the last section, each operation on Ethereum has a specific c
 
 That’s why `call()` instead of `transfer()` is now recommended to send Ether.
 
-Learn more about the subject in this [Consensys blog post](https://consensys.net/diligence/blog/2019/09/stop-using-soliditys-transfer-now/).
+Learn more about the subject in this <a href="https://consensys.net/diligence/blog/2019/09/stop-using-soliditys-transfer-now/" target="_blank">Consensys blog post</a>.
+
 
 ### Reentrancy attack
 A *reentrancy attack* occurs when a function makes an external call to an untrusted contract and, the attacker uses the contract to make recursive calls back to the original function before it finishes its execution. In this way, the attacker can drain funds and manipulate data in unintended ways.
 
-To guard against the *reentrancy attack* we should do all state changes before calling an external contract. This is also called the [Checks-Effects-Interactions](https://docs.soliditylang.org/en/latest/security-considerations.html#re-entrancy) pattern.
+To guard against the *reentrancy attack* we should do all state changes before calling an external contract. This is also called the <a href="https://docs.soliditylang.org/en/latest/security-considerations.html#re-entrancy" target="_blank">Checks-Effects-Interactions</a> pattern.
 
-Another way to prevent reentrancy is to use a *Reentrancy Guard* that checks for such calls and rejects them. You can see an example of this in the contract of our modifier section or a more gas-efficient version on [open zeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol).
+Another way to prevent reentrancy is to use a *Reentrancy Guard* that checks for such calls and rejects them. You can see an example of this in the contract of our modifier section or a more gas-efficient version on <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol" target="_blank">Open Zepplin</a>.
 
 ### Receiving Ether
 If we want to enable a contract to receive Ether without a function being called, we need to create a `receive` function (line 22) or `fallback` function (line 25); otherwise, the Ether will be rejected, and throw an exception.

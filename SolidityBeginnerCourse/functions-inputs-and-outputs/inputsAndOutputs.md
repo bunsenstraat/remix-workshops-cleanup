@@ -21,7 +21,7 @@ The `destructingAssigments` function (line 49) assigns the values of the `return
 There are some restrictions and best practices of input and output parameters of contract functions.
 
 "*[Mappings] cannot be used as parameters or return parameters of contract functions that are publicly visible.*" 
-From the <a href="https://docs.soliditylang.org/en/latest/types.html#mapping-types">Solidity documentation</a>.
+From the <a href="https://docs.soliditylang.org/en/latest/types.html#mapping-types" target="_blank">Solidity documentation</a>.
 
 Arrays can be used as parameters, as shown in the function `arrayInput` (line 71) and as return parameters as visible in the function `arrayOutput` (line 76).
 
