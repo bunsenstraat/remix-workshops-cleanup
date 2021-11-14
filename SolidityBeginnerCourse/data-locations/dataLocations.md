@@ -1,6 +1,6 @@
 The values of variables in Solidity can be stored in different data locations: *memory*, *storage*, and *calldata*.
 
-As we have discussed before, variables of the value type store an independent copy of the value when they are used. Variables of the reference type (array, struct, mapping) only store the location (reference) of the value.
+As we have discussed before, variables of the value type store an independent copy of a value, while variables of the reference type (array, struct, mapping) only store the location (reference) of the value.
 
 If we use a reference type in a function, we have to specify in which data location their values are stored. The price for the execution of the function is influenced by the data location; creating copies from reference types costs gas.
 
@@ -17,7 +17,7 @@ In this contract, the local variable `myMemstruct` (line 19), as well as the par
 ### Calldata
 *Calldata* stores function arguments. Like *memory*, *calldata* is only stored temporarily during external function execution. In contrast to values stored in *memory*, values stored in *calldata* can not be changed. It is the cheapest location to use.
 
-In this contract, the parameter `_arr` (line 43) has the data location *calldata*. If we would want to assign a new value to the first element of the array `_arr`, we could do that in the `function g` (line 38) but not in the `function h` (line 43). Because `_arr` in `function g `has the data location *memory* and *function h* `calldata`.
+In this contract, the parameter `_arr` (line 35) has the data location *calldata*. If we would want to assign a new value to the first element of the array `_arr`, we could do that in the `function g` (line 31) but not in the `function h` (line 35). Because `_arr` in `function g `has the data location *memory* and *function h* `calldata`.
 
 ## Assignments
 
@@ -27,9 +27,9 @@ Assignments from *memory* to *memory* create references, no copies. If you chang
 If we would create a new struct `myMemeStruct2` with the data location *memory* inside the `function f` (line 12) and assign it the value of `myMemeStruct` (line 19), any change to `myMemeStruct2` would also change the value of `myMemeStruct`.
 
 ### Storage to local storage
-Assignments from *storage* to *local storage* also create references, no copies.
+Assignments from *storage* to *local storage* also create references, not copies.
 
-If we change the value of the local variable `myStruct` (line 16), the value of our state variable `myStructs` (line 10) changes too.
+If we change the value of the local variable `myStruct` (line 17), the value of our state variable `myStructs` (line 10) changes too.
 
 ## Storage and memory/calldata
 Assignments between *storage* and *memory* (or *calldata*) create an independent copy, no reference.

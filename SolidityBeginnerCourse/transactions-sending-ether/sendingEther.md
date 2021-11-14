@@ -7,32 +7,29 @@ We have three different options to transfer Ether: `transfer()`, `send()` and `c
 `<address payable>.transfer(uint256 amount)`
 * `transfer()` throws an exception on failure 
 * Forwards a fixed 2300 gas stipend
-* Member of `address payable`
 
 An example of `transfer()` can be seen in the `SendEther` contract (line 35).
-`Transfer()` is not recommended to be used anymore.
+**`Transfer()` is not recommended to be used anymore.**
 
 #### **send**
 `<address payable>.send(uint256 amount) returns (bool)`
 * `send()` returns false on failure 
 * Forwards a fixed 2300 gas stipend
-* Member of address payable
 
 An example of `send()` can be seen in the `SendEther` contract (line 41).
-`Send()` is not recommended to be used anymore.
+**`Send()` is not recommended to be used anymore.**
 
 #### **call**
 `<address>.call(bytes memory) returns (bool, bytes memory)`
 * `call()` returns false on failure 
 * Forwards the maximum of gas, but this is adjustable
-* Member of address
 
 An example of `call()` can be seen in the `SendEther` contract (line 48).
 `Call()` is currently recommended to transfer Ether.
 
 The reason `transfer()` and `send()` were introduced was to guard against *reentry attacks* by limiting the forwarded gas to 2300, which would be insufficient to make a reentrant call that can modify storage.
 
-As we discussed in the last section, each operation on Ethereum has a specific cost associated with it. These costs are now subject to change, and smart contracts should avoid relying on specific gas costs.
+As we discussed in the last section, each operation on Ethereum has a specific cost associated with it. Certain operations have become more cost intensive overtime, so the gas costs associated with them are also raised. When gas costs for operations are subject to change it is not good to use a hardcoded gas amount like transfer(), and send() do.
 
 That’s why `call()` instead of `transfer()` is now recommended to send Ether.
 
@@ -42,7 +39,7 @@ Learn more about the subject in this <a href="https://consensys.net/diligence/bl
 ### Reentrancy attack
 A *reentrancy attack* occurs when a function makes an external call to an untrusted contract and, the attacker uses the contract to make recursive calls back to the original function before it finishes its execution. In this way, the attacker can drain funds and manipulate data in unintended ways.
 
-To guard against the *reentrancy attack* we should do all state changes before calling an external contract. This is also called the <a href="https://docs.soliditylang.org/en/latest/security-considerations.html#re-entrancy" target="_blank">Checks-Effects-Interactions</a> pattern.
+To guard against the *reentrancy attack*, all state changes should be made before calling an external contract. This is also called the <a href="https://docs.soliditylang.org/en/latest/security-considerations.html#re-entrancy" target="_blank">Checks-Effects-Interactions</a> pattern.
 
 Another way to prevent reentrancy is to use a *Reentrancy Guard* that checks for such calls and rejects them. You can see an example of this in the contract of our modifier section or a more gas-efficient version on <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol" target="_blank">Open Zepplin</a>.
 

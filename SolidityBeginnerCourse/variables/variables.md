@@ -21,5 +21,6 @@ Watch video tutorials on <a href="https://www.youtube.com/watch?v=hl692-xJPUQ" t
 ## ⭐️ Assignment
 1. Create a new public state variable called `blockNumber`.
 2. Inside the function `doSomething()` assign the state variable `blockNumber` the value of the current block number.
+3. 
 
 Tip: Look into the global variables section of the Solidity documentation to find out what the current block number is.
