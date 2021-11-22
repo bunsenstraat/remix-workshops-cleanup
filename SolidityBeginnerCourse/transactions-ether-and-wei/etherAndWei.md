@@ -1,4 +1,4 @@
-*Ether* (ETH) is a cryptocurrency. *Ether* is also used to pay fees for using the Ethereum network, like doing transactions in the form of sending *Ether* to an address or interacting with an Ethereum application.
+*Ether* (ETH) is a cryptocurrency. *Ether* is also used to pay fees for using the Ethereum network, like making transactions in the form of sending *Ether* to an address or interacting with an Ethereum application.
 
 ### Ether Units
 To specify a unit of *Ether*, we can add the suffixes `wei`, `gwei`, or `ether` to a literal number.

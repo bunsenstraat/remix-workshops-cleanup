@@ -1,7 +1,7 @@
-In Solidity, we can define our own custom data types in the form of *structs*. Structs are a collection of variables that can consist of different data types.
+In Solidity, we can define custom data types in the form of *structs*. Structs are a collection of variables that can consist of different data types.
 
 ### Defining structs
-We define a struct with the `struct` keyword and a name (line 5). Inside curly braces, we can define its members, which consist of the variable names and their data types.
+We define a struct using the `struct` keyword and a name (line 5). Inside curly braces, we can define our struct’s members, which consist of the variable names and their data types.
 
 ### Initializing structs
 There are different ways to initialize a struct.

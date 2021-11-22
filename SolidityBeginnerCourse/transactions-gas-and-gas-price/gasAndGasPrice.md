@@ -6,20 +6,20 @@ As we have seen in the previous section, executing code via transactions on the 
 ### Gas price
 The *gas* that fuels Ethereum is sometimes compared to the gas that fuels a car. The amount of gas your car consumes is mostly the same, but the price you pay for gas depends on the market.
 
-Similarly, the amount of *gas* that a transaction costs is always the same for the same computational work that is associated with it, but the price that the sender of the transaction is willing to pay for the *gas* is up to them, and the demand in the market. Transactions with higher *gas prices* are going through faster; transactions with very low *gas prices* might not go through at all.
+Similarly, the amount of *gas* that a transaction requires is always the same for the same computational work that is associated with it. However the price that the sender of the transaction is willing to pay for the *gas* is up to them. Transactions with higher *gas prices* are going through faster; transactions with very low *gas prices* might not go through at all.
 
-For sending a transaction, the sender has to pay the *gas* fee (gas_price * gas) upon execution of the transaction. If *gas* is left after the execution is completed, the sender gets refunded.
+When sending a transaction, the sender has to pay the *gas* fee (gas_price * gas) upon execution of the transaction. If *gas* is left over after the execution is completed, the sender gets refunded.
 
 *Gas* prices are denoted in gwei.
 
 ### Gas limit
-When sending a transaction, the sender specifies the maximum amount of gas that they are willing to pay for. If they set the limit too low, their transaction can run out of *gas* before being completed, reverting any changes being made. In this case, the *gas* was consumed and can’t get refunded.
+When sending a transaction, the sender specifies the maximum amount of gas that they are willing to pay for. If they set the limit too low, their transaction can run out of *gas* before being completed, reverting any changes being made. In this case, the *gas* was consumed and can’t be refunded.
 
 Learn more about *gas* on <a href="https://ethereum.org/en/developers/docs/gas/" target="_blank">ethereum.org</a>.
 
 <a href="https://www.youtube.com/watch?v=oTS9uxU6cAM" target="_blank">Watch a video tutorial on Gas and Gas Price</a>.
 
 ## ⭐️ Assignment
-Create a new `public` state variable in the `Gas` contract called `cost` of the type `uint`. Store the value of the gas cost for deploying the contract in it, including the cost for the value you are storing.
+Create a new `public` state variable in the `Gas` contract called `cost` of the type `uint`. Store the value of the gas cost for deploying the contract in the new variable, including the cost for the value you are storing.
 
-Tip: You can check in the Remix terminal the details of a transaction, including the gas cost. You can also use the Remix plugin *Gas Profiler* to check upon the gas cost of transactions.
+Tip: You can check in the Remix terminal the details of a transaction, including the gas cost. You can also use the Remix plugin *Gas Profiler* to check for the gas cost of transactions.

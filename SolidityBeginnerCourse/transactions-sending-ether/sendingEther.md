@@ -22,10 +22,10 @@ An example of `send()` can be seen in the `SendEther` contract (line 41).
 #### **call**
 `<address>.call(bytes memory) returns (bool, bytes memory)`
 * `call()` returns false on failure 
-* Forwards the maximum of gas, but this is adjustable
+* Forwards the maximum amount of gas, but this is adjustable
 
 An example of `call()` can be seen in the `SendEther` contract (line 48).
-`Call()` is currently recommended to transfer Ether.
+`Call()` is currently recommended if you are transfering Ether.
 
 The reason `transfer()` and `send()` were introduced was to guard against *reentry attacks* by limiting the forwarded gas to 2300, which would be insufficient to make a reentrant call that can modify storage.
 
@@ -37,16 +37,16 @@ Learn more about the subject in this <a href="https://consensys.net/diligence/bl
 
 
 ### Reentrancy attack
-A *reentrancy attack* occurs when a function makes an external call to an untrusted contract and, the attacker uses the contract to make recursive calls back to the original function before it finishes its execution. In this way, the attacker can drain funds and manipulate data in unintended ways.
+A *reentrancy attack* occurs when a function makes an external call to an untrusted contract and the attacker uses the contract to make recursive calls back to the original function before it finishes its execution. Through this method, the attacker can drain funds and manipulate data in unintended ways.
 
-To guard against the *reentrancy attack*, all state changes should be made before calling an external contract. This is also called the <a href="https://docs.soliditylang.org/en/latest/security-considerations.html#re-entrancy" target="_blank">Checks-Effects-Interactions</a> pattern.
+To guard against a *reentrancy attack*, all state changes should be made before calling an external contract. This is also called the <a href="https://docs.soliditylang.org/en/latest/security-considerations.html#re-entrancy" target="_blank">Checks-Effects-Interactions</a> pattern.
 
-Another way to prevent reentrancy is to use a *Reentrancy Guard* that checks for such calls and rejects them. You can see an example of this in the contract of our modifier section or a more gas-efficient version on <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol" target="_blank">Open Zepplin</a>.
+Another way to prevent reentrancy is to use a *Reentrancy Guard* that checks for such calls and rejects them. You can see an example of this in the contract in our modifier section or a more gas-efficient version on <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol" target="_blank">Open Zepplin</a>.
 
 ### Receiving Ether
-If we want to enable a contract to receive Ether without a function being called, we need to create a `receive` function (line 22) or `fallback` function (line 25); otherwise, the Ether will be rejected, and throw an exception.
+If we want to enable a contract to receive Ether without a function being called, we need to create a `receive` function (line 22) or a `fallback` function (line 25); otherwise, the Ether will be rejected, and the contract will throw an exception.
 
-The `receive` function is executed on calls with empty calldata (e.g. plain Ether transfers via send() or transfer()), the fallback function on calls with calldata. If no receive function exists but a fallback function, calls with empty calldata will also use the fallback function.
+The `receive` function is executed on calls with empty calldata (e.g. plain Ether transfers via send() or transfer()), while the fallback function is executed on calls with calldata. If no receive function exists but a fallback function does, calls with empty calldata will also use the fallback function.
 
 ### Payable function modifier
 The `payable` function modifier allows a function to receive Ether.
@@ -55,17 +55,17 @@ The `receive` function (line 22) needs to be `payable`. If you delete the `payab
 The functions `sendViaTransfer`, `sendViaSend`, and `sendViaCall` (lines 33, 38, and 45) also need to be `payable` in order to receive Ether.
 
 ### Payable address
-Solidity makes a distinction between two different flavors of the address data type.
+Solidity makes a distinction between two different flavors of the address data type: address and address payable.
 
 `address`: Holds a 20-byte value.
-`address payable`: Holds a 20-byte value and can receive Ether via its members transfer and send.
+`address payable`: Holds a 20-byte value and can receive Ether via its members: transfer and send.
 
-If you change the parameter type for the functions `sendViaTransfer` and `sendViaSend` (line 33 and 38) from `payable address` to `address` you won’t be able to use `transfer()` (line 35) or `send()` (line 41).
+If you change the parameter type for the functions `sendViaTransfer` and `sendViaSend` (line 33 and 38) from `payable address` to `address`, you won’t be able to use `transfer()` (line 35) or `send()` (line 41).
 
 <a href="https://www.youtube.com/watch?v=_5vGaqgzlG8" target="_blank">Watch a video tutorial on Sending Ether</a>.
 
 ## ⭐️ Assignment
-Build a charity contract that receives Ether, which can be withdrawn by a beneficiary.
+Build a charity contract that receives Ether that can be withdrawn by a beneficiary.
 
 1. Create a contract called `Charity`.
 2. Add a public state variable called `owner` of the type address.
