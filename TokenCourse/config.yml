@@ -1,0 +1,12 @@
+--- 
+id: tokenCourse
+name: Token Course
+summary: Learn how to create your own ERC20 and NFT tokens. Developed by the p2p learning platform https://dacade.org.
+level: 1
+tags: 
+  - Solidity, Tokens
+steps:
+  - name: 1. Introduction
+    path: introduction
+  - name: 2.1 ERC20 - Introduction
+    path: erc20-introduction
