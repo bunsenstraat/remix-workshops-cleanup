@@ -19,20 +19,20 @@ The function `balanceOf` (line 18) returns the amount of tokens owned by the acc
 
 ### transfer 
 The function `transfer` (line 27) transfers `amount` of tokens to the address `recipient`.
-This function *must* emit (produce) a `Transfer` event (see below) and *should* throw an exception when the sender doesn't have enough tokens to make the transfer.
+This function **must** emit (produce) a `Transfer` event (see below) and **should** throw an exception when the sender doesn't have enough tokens to make the transfer.
 
 ### approve
-The function `approve` (line 52) allows the address `spender` to transfer `amount` of tokens on behalf of the account calling the function.
+The function `approve` (line 52) creates an allowance for the address `spender` to transfer `amount` of tokens on behalf of the account calling the function.
 
 ### allowance
 The function `allowance` (line 36) returns the amount of tokens that the address `spender` is allowed to spend on behalf of the account with the address `owner`.
 
 ### transferFrom 
 The function `transferFrom` (line 63) transfers `amount` of tokens on behalf of the address `sender` to the address `recipient`.
-This function *must* emit a `Transfer` event.
+This function **must** emit a `Transfer` event.
 
 ## ERC20 Events
-ERC20 Token Contracts must also emit two events:
+ERC20 contracts must also emit two events:
 
 ### Transfer
 The `Transfer` (line 71) event must be emitted when `value` amount of tokens are transferred from the account with the address `from` to `to`.
@@ -41,7 +41,7 @@ The `Transfer` (line 71) event must be emitted when `value` amount of tokens are
 The `Approval` (line 77)  event must be emitted when the account `owner` approves the account `spender` to transfer `value` amount of tokens on its behalf.
 
 ## ERC20 Optional functions
-Additionally to the mandatory functions and events, there are also three optional functions specified in the ERC20 Token Standard, but not in this interface:
+Additionally to the mandatory functions and events, there are also three optional functions specified in the ERC20 standard, that are not implemented in this interface:
 
 ### name
 `function name() external view returns (string);`
