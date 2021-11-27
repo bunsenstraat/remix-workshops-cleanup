@@ -9,5 +9,5 @@ tags:
 steps:
   - name: 1. Introduction
     path: introduction
-  - name: 2.1 ERC20 - Introduction
-    path: erc20-introduction
+  - name: 2.1 ERC20 - Interface
+    path: erc20-interface
