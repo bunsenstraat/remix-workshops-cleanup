@@ -12,6 +12,6 @@ steps:
   - name: 2.1 ERC20 - Interface
     path: erc20-interface
   - name: 2.2 ERC20 - Token Creation
-    path: erc20-tokenCreation
+    path: erc20-token-creation
   - name: 2.3 ERC20 - Interaction
     path: erc20-interaction
