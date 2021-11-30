@@ -1,6 +1,6 @@
 ERC20 (Ethereum Request for Comments 20) is a standard for token contracts that manage fungible tokens on the Ethereum blockchain.
 
-Fungible tokens are all equal to each other and have the same value, behavior, and rights. Fungible tokens are often used as a medium of exchange, as the currencies ETH or BTC, but also for other use cases like voting rights or reputation.
+Fungible tokens are all equal to each other and have the same value, behavior, and rights. Fungible tokens are often used as a medium of exchange, like the currencies ETH or BTC, but also for other use cases like voting rights or reputation.
 
 If you want to know more about the ERC20 token standard, have a look at the specifications in its <a href="https://eips.ethereum.org/EIPS/eip-20" target="_blank">Ethereum improvement proposal</a>.
 
@@ -12,7 +12,7 @@ This interface (line 9) is part of the open-source contract library provided by 
 Contracts compliant with the ERC20 standard have to implement the following six functions:
 
 ### totalSupply
-The function `totalSupply` (line 13) returns the total amount of tokens created by the contract.
+The function `totalSupply` (line 13) returns the total amount of tokens available.
 
 ### balanceOf
 The function `balanceOf` (line 18) returns the amount of tokens owned by the account with the address `account`.
