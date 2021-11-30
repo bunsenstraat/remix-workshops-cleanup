@@ -16,7 +16,7 @@ steps:
     path: variables
   - name: 5.1 Functions - Reading and Writing to a State Variable
     path: functions-reading-and-writing
-  - name: 5.2 Functions - View and pure
+  - name: 5.2 Functions - View and Pure
     path: functions-view-and-pure
   - name: 5.3 Functions - Modifiers and Constructors
     path: functions-modifiers-and-constructors
