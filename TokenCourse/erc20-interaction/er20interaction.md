@@ -36,16 +36,16 @@ We will transfer EduCoin from one account to a second account.
 - If you check the balances for the first account and second account, they should both return the amount 500000000000000000000.
 
 #### 2.7 Approve
-We will allow account one to spend tokens on behalf of account two.
-- Go to the “Account” section, copy the address of account number one, then set it to account two again.
-- In the approve function, enter the address of account number one as the input for spender and set the amount to 500000000000000000000.
+We will allow account 1 to spend tokens on behalf of account 2.
+- Go to the “Account” section, copy the address of account 1, then set it to account 2 again.
+- In the approve function, enter the address of account 1 as the input for spender and set the amount to 500000000000000000000.
 
 #### 2.8 Allowance
-- Next to the “allowance” button enter the address of account two as the owner and account one as the spender, click on the button.
+- Next to the “allowance” button enter the address of account 2 as the owner and account 1 as the spender, click on the button.
 It should return 1000000000000000000000.
 
 #### 2.9 TransferFrom
-Account one will transfer 250000000000000000000 tokens from account two to its own account.
-- Select account number one in the “ACCOUNT” section.
-- Next to the “transferFrom” button enter the address of account two as the sender and account one as the recipient, enter 250000000000000000000 as the amount and click on the button.
+account 1 will transfer 250000000000000000000 tokens from account 2 to its own account.
+- Select account 1 in the “ACCOUNT” section.
+- Next to the “transferFrom” button enter the address of account 2 as the sender and account 1 as the recipient, enter 250000000000000000000 as the amount and click on the button.
 - Check the balances of accounts one and two, they should return 750000000000000000000 and 250000000000000000000.
