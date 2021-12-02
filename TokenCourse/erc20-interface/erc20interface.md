@@ -17,7 +17,7 @@ The function `totalSupply` (line 13) returns the total amount of tokens availabl
 ### balanceOf
 The function `balanceOf` (line 18) returns the amount of tokens owned by the account with the address `account`.
 
-### transfer 
+### transfer
 The function `transfer` (line 27) transfers `amount` of tokens to the address `recipient`.
 This function **must** emit (produce) a `Transfer` event (see below) and **should** throw an exception when the sender doesn't have enough tokens to make the transfer.
 
@@ -27,7 +27,7 @@ The function `approve` (line 52) creates an allowance for the address `spender` 
 ### allowance
 The function `allowance` (line 36) returns the amount of tokens that the address `spender` is allowed to spend on behalf of the account with the address `owner`.
 
-### transferFrom 
+### transferFrom
 The function `transferFrom` (line 63) transfers `amount` of tokens on behalf of the address `sender` to the address `recipient`.
 This function **must** emit a `Transfer` event.
 
