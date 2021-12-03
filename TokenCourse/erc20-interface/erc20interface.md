@@ -6,7 +6,7 @@ If you want to know more about the ERC20 token standard, have a look at the spec
 
 ## Interface
 To get an overview of the required functionality of an ERC20 token contract, we will look at an interface that interacts with an ERC20 contract.
-This interface (line 9) is part of the open-source contract library provided by <a href="https://openzeppelin.com/" target="_blank">OpenZeppelin</a>.
+This interface (line 9) is part of the open-source contract library provided by <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.4.0/contracts/token/ERC20/IERC20.sol" target="_blank">OpenZeppelin</a>.
 
 ## ERC20 Functions
 Contracts compliant with the ERC20 standard have to implement the following six functions:
