@@ -8,6 +8,7 @@ In this section, we will deploy a contract in our browser and test its functiona
 **1.2** In the "Deploy & run transactions" module, select your contract "EduCoin" in the contract input field and click on the "Deploy" button.
 
 ### 2. Test the functions
+<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="100"
 Expand the token contract functions in the IDE.
 
 #### 2.1 Decimals
