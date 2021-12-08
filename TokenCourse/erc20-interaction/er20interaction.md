@@ -1,14 +1,13 @@
 In this section, we will deploy a contract in our browser and test its functionality.
 
 ### 1. Deploy the contract
-<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="100"
+<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="100"/>
 
 **1.1** Compile your EduCoin contract in the "Solidity compiler" module of the Remix IDE.
 
 **1.2** In the "Deploy & run transactions" module, select your contract "EduCoin" in the contract input field and click on the "Deploy" button.
 
 ### 2. Test the functions
-<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="100"
 Expand the token contract functions in the IDE.
 
 #### 2.1 Decimals
@@ -27,6 +26,8 @@ It should return "EDC".
 Click on the "totalSupply" button to call the totalSupply() function.
 It should return 1000000000000000000000 (1000*10**18).
 
+<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="100"/>
+
 #### 2.5 Balance of
 **2.5.1** Go to the "ACCOUNT" section in the sidebar and copy the displayed address by using the copy icon next to it.
 
@@ -34,6 +35,7 @@ It should return 1000000000000000000000 (1000*10**18).
 It should return 1000000000000000000000 (1000*10**18).
 
 #### 2.6 Transfer
+<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="100"/>
 We will transfer EduCoin from one account to a second account.
 
 **2.6.1** Go to the "ACCOUNT" section in the sidebar, click on the displayed address, that should open a dropdown. Select the second address displayed and copy its address (account 2).
