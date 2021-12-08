@@ -1,6 +1,8 @@
 In this section, we will deploy a contract in our browser and test its functionality.
 
 ### 1. Deploy the contract
+![](https://i.imgur.com/BuKH1mt.gif)
+
 **1.1** Compile your EduCoin contract in the "Solidity compiler" module of the Remix IDE.
 
 **1.2** In the "Deploy & run transactions" module, select your contract "EduCoin" in the contract input field and click on the "Deploy" button.
@@ -46,7 +48,7 @@ We will now allow account 1 to spend tokens on behalf of account 2.
 
 **2.7.1** Go to the "Account" section, copy the address of account 1, then set it to account 2 again.
 
-**2.7.2** In the approve function, enter the address of account 1 as the input for spender and set the amount to 500000000000000000000.
+**2.7.2** In the approve function, enter the address of account 1 as the input for spender and set the amount to 250000000000000000000.
 
 #### 2.8 Allowance
 Next to the "allowance" button enter the address of account 2 as the owner and account 1 as the spender; click on the button.
@@ -59,4 +61,4 @@ Now account 1 will transfer 250000000000000000000 tokens from account 2 to its o
 
 **2.9.2** Next to the "transferFrom" button enter the address of account 2 as the sender and account 1 as the recipient, enter 250000000000000000000 as the amount and click on the button.
 
-**2.9.3** Check the balances of accounts one and two, they should return 750000000000000000000 and 250000000000000000000.
+**2.9.3** Check the balances of accounts 2 and 1, they should return 250000000000000000000 and 750000000000000000000.
