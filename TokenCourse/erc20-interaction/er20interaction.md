@@ -1,7 +1,7 @@
 In this section, we will deploy a contract in our browser and test its functionality.
 
 ### 1. Deploy the contract
-![](https://i.imgur.com/BuKH1mt.gif)
+<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="100"
 
 **1.1** Compile your EduCoin contract in the "Solidity compiler" module of the Remix IDE.
 
