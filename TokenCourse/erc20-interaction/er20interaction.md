@@ -61,14 +61,14 @@ We will now allow account 1 to spend tokens on behalf of account 2.
 **2.7.2** In the approve function, enter the address of account 1 as the input for spender and set the amount to 250000000000000000000.
 
 **GIF** Test approve function:
-<img src="https://i.imgur.com/Ayvnl5L.gif" alt="Test approve function" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_approve.gif?raw=true" alt="Test approve function" width="300"/>
 
 #### 2.8 Allowance
 Next to the "allowance" button enter the address of account 2 as the owner and account 1 as the spender; click on the button.
 It should return 1000000000000000000000.
 
 **GIF** Test allowance function:
-<img src="https://i.imgur.com/BstA4uK.gif" alt="Test allowance function" width="300"/>
+<img src="https://i.imgur.com/HIaOqYw.gif" alt="Test allowance function" width="300"/>
 
 #### 2.9 TransferFrom
 Now account 1 will transfer 250000000000000000000 tokens from account 2 to its own account.
