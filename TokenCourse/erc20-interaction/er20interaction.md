@@ -5,7 +5,7 @@ In this section, we will deploy a contract in our browser and test its functiona
 
 **1.2** In the "Deploy & run transactions" module, select your contract "EduCoin" in the contract input field and click on the "Deploy" button.
 
-Compile and deploy GIF:
+**GIF** Compile and deploy:
 <img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="300"/>
 
 ### 2. Test the functions
@@ -27,7 +27,7 @@ It should return "EDC".
 Click on the "totalSupply" button to call the totalSupply() function.
 It should return 1000000000000000000000 (1000*10**18).
 
-Test decimals, name, symbol and totalSupply functions GIF:
+**GIF** Test decimals, name, symbol and totalSupply functions:
 <img src="https://i.imgur.com/IV2v1QB.gif" alt="Test functions" width="300"/>
 
 #### 2.5 Balance of
@@ -36,7 +36,7 @@ Test decimals, name, symbol and totalSupply functions GIF:
 **2.5.2** Paste the address in the input field next to the "balanceOf" function button and click on the button.
 It should return 1000000000000000000000 (1000*10**18).
 
-Test balanceOf function GIF:
+**GIF** Test balanceOf function:
 <img src="https://i.imgur.com/mctFoi7.gif" alt="Test balanceOf function" width="300"/>
 
 #### 2.6 Transfer
@@ -49,6 +49,9 @@ We will transfer EduCoin from one account to a second account.
 **2.6.3** Paste the address in the input field next to the "transfer" function button, input the number 500000000000000000000, and click on the button.
 
 **2.6.4** If you check the balances for account 1 and account 2, they should both return the amount 500000000000000000000.
+
+**GIF** Test transfer function:
+<img src="https://i.imgur.com/OZ8quwh.gif" alt="Test transfer function" width="300"/>
 
 #### 2.7 Approve
 We will now allow account 1 to spend tokens on behalf of account 2.
