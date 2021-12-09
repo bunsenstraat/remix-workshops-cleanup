@@ -6,7 +6,7 @@ In this section, we will deploy a contract in our browser and test its functiona
 **1.2** In the "Deploy & run transactions" module, select your contract "EduCoin" in the contract input field and click on the "Deploy" button.
 
 **GIF** Compile and deploy:
-<img src="https://i.imgur.com/BuKH1mt.gif" alt="Compile and deploy contract" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_compileAndDeploy.gif?raw=true" alt="Compile and deploy contract" width="300"/>
 
 ### 2. Test the functions
 Expand the token contract functions in the IDE.
@@ -28,7 +28,7 @@ Click on the "totalSupply" button to call the totalSupply() function.
 It should return 1000000000000000000000 (1000*10**18).
 
 **GIF** Test decimals, name, symbol and totalSupply functions:
-<img src="https://i.imgur.com/IV2v1QB.gif" alt="Test functions" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_test_functions.gif?raw=true" alt="Test transfer function" width="300"/>
 
 #### 2.5 Balance of
 **2.5.1** Go to the "ACCOUNT" section in the sidebar and copy the displayed address by using the copy icon next to it.
@@ -37,7 +37,7 @@ It should return 1000000000000000000000 (1000*10**18).
 It should return 1000000000000000000000 (1000*10**18).
 
 **GIF** Test balanceOf function:
-<img src="https://i.imgur.com/mctFoi7.gif" alt="Test balanceOf function" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_balanceOf.gif?raw=true" alt="Test transfer function" width="300"/>
 
 #### 2.6 Transfer
 We will transfer EduCoin from one account to a second account.
@@ -51,7 +51,7 @@ We will transfer EduCoin from one account to a second account.
 **2.6.4** If you check the balances for account 1 and account 2, they should both return the amount 500000000000000000000.
 
 **GIF** Test transfer function:
-<img src="https://i.imgur.com/OZ8quwh.gif" alt="Test transfer function" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_test_functions.gif?raw=true" alt="Test transfer function" width="300"/>
 
 #### 2.7 Approve
 We will now allow account 1 to spend tokens on behalf of account 2.
@@ -68,7 +68,7 @@ Next to the "allowance" button enter the address of account 2 as the owner and a
 It should return 1000000000000000000000.
 
 **GIF** Test allowance function:
-<img src="https://i.imgur.com/HIaOqYw.gif" alt="Test allowance function" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_allowance.gif?raw=true" alt="Test allowance function" width="300"/>
 
 #### 2.9 TransferFrom
 Now account 1 will transfer 250000000000000000000 tokens from account 2 to its own account.
@@ -80,4 +80,4 @@ Now account 1 will transfer 250000000000000000000 tokens from account 2 to its o
 **2.9.3** Check the balances of accounts 2 and 1, they should return 250000000000000000000 and 750000000000000000000.
 
 **GIF** Test transferFrom function:
-<img src="https://i.imgur.com/k808JNC.gif" alt="Test transferFrom function" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_transferFrom.gif?raw=true" alt="Test transferFrom function" width="300"/>
