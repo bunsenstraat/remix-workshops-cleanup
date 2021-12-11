@@ -1,11 +1,11 @@
-ERC721 is a standard for token contracts that manage non-fungible tokens on the Ethereum blockchain.
+ERC721 is a standard for token contracts that manage non-fungible tokens (NFTs) on the Ethereum blockchain.
 
 Each non-fungible token is unique and not interchangeable. They can have different properties, behavior, or rights. Non-fungible tokens are used to represent ownership of unique digital and physical assets like: art, collectibles, or real estate.
 
 If you want to know more about the ERC721 token standard, have a look at the specifications in its <a href="https://eips.ethereum.org/EIPS/eip-721" target="_blank">Ethereum improvement proposal</a>.
 
 ## Interface
-The ERC721 standard is more complex than the ERC20 and features optional extensions. ERC-721 compliant contracts must implement at least the ERC721 and ERC165 interfaces, which we will look at in this section.
+The ERC721 standard is more complex than the ERC20 and features optional extensions. ERC721 compliant contracts must implement at least the ERC721 and ERC165 interfaces, which we will look at in this section.
 
 This interface (line 11) is part of the open-source contract library provided by <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/IERC721.sol" target="_blank">OpenZeppelin</a>.
 

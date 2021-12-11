@@ -14,7 +14,6 @@ geo-img
 ```
 
 ### Register on Pinata
-
 Now we want to host these images somewhere so we can point to them in the metadata of our tokens. Let's do it in a decentralized way and use Pinata to host them on IPFS.
 
 First you need an account on Pinata. Go to <a href="https://app.pinata.cloud/register" target="_blank">Pinata.cloud</a> and create an account. On Pinata you can upload up to 1 GB of data for free.
@@ -23,8 +22,8 @@ Once you have signed up, you should be in the Pin Manager view.
 
 <img src="https://i.imgur.com/yKpD65m.png" alt="Pin Manager Pinata" width="300"/>
 
-### Upload Images to IPFS
 
+### Upload Images to IPFS
 Click on the upload button and upload the folder with your images.
 Once you've uploaded your folder, you should see the name of your folder and a CID (content identifier) associated with it. If the content in the folder changes, the CID will also change.
 
@@ -39,7 +38,6 @@ You can access a specific image like this:
 </a>
 
 ### Create JSON files
-
 We create another folder where we store three JSON files.
 ```
 geo-json
