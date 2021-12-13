@@ -29,3 +29,9 @@ steps:
     path: erc721-metadata-ipfs
   - name: 3.5 ERC721 - Deploy Testnet OpenSea
     path: erc721-deploy-testnet-opensea
+  - name: 4.1 ERC721 Auction - Contract Setup 
+    path: auction-contract-setup
+  - name: 4.2 ERC721 Auction - Start and Bid Functions
+    path: auction-start-bid
+  - name: 4.3 ERC721 Auction - Withdraw and End Functions
+    path: auction-withdraw-end
