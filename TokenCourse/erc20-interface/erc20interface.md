@@ -35,10 +35,10 @@ This function **must** emit a `Transfer` event.
 ERC20 contracts must also emit two events:
 
 ### Transfer
-The `Transfer` (line 71) event must be emitted when `value` amount of tokens are transferred from the account with the address `from` to `to`.
+The `Transfer` (line 71) event must be emitted when `value` amount of tokens are transferred from the account with the address `indexed from` to `indexed to`. The parameters `from` and `to` are `indexed` allowing us to search for these events using the indexed parameters as filters.
 
 ### Approval
-The `Approval` (line 77)  event must be emitted when the account `owner` approves the account `spender` to transfer `value` amount of tokens on its behalf.
+The `Approval` (line 77)  event must be emitted when the account `indexed owner` approves the account `indexed spender` to transfer `value` amount of tokens on its behalf.
 
 ## ERC20 Optional functions
 Additionally to the mandatory functions and events, there are also three optional functions specified in the ERC20 standard, that are not implemented in this interface:
