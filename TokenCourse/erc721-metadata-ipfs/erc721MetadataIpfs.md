@@ -27,7 +27,7 @@ Once you have signed up, you should be in the Pin Manager view.
 Click on the upload button and upload the folder with your images.
 Once you've uploaded your folder, you should see the name of your folder and a CID (content identifier) associated with it. If the content in the folder changes, the CID will also change.
 
-You can now access your folder via its CID on IPFS like this:
+To access your folder on IPFS enter this address "https://ipfs.io/ipfs/" and add your CID. For our current example you can access your folder like this:
 <a href="https://ipfs.io/ipfs/QmTJok2tju9zstjtAqESdZxTiUiFCBAyApHiDVj4maV75P" target="_blank">
     https://ipfs.io/ipfs/QmTJok2tju9zstjtAqESdZxTiUiFCBAyApHiDVj4maV75P
 </a>
@@ -77,8 +77,27 @@ This is how the JSON for the second token could look like:
     ]
 }
 ```
-Make sure that your JSON files don't have a file ending, like 0,1,2 in this example.
+
+As shown above, the folder in this example is called "geo-json". Inside this folder, we have three JSON files. 
+The first JSON file is called "0", the second JSON file is called "1", and the third JSON file is called "2".
+
+Make sure that your JSON files don't have a file ending and are just called like their corresponding tokenIds.
 In the pin manager on pinata.cloud click on the upload button and upload the folder with your JSON files.
 
-In your contract, replace the CID in the _baseURI with the CID of your JSON folder on IPFS.
+To access your folder on IPFS enter this address "https://ipfs.io/ipfs/" and add your CID. 
+For our current example you can access your folder like this:
+<a href="https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp" target="_blank">
+    https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp
+</a>
+This will become our baseURI.
 
+You can access a specific JSON file then by just adding a slash and the tokenId like this:
+<a href="https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp/0" target="_blank">
+    https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp/0
+</a>
+
+In the contract now replace the baseURI with your own baseURI, which in this example consists of the URL 
+"https://ipfs.io/ipfs/", the CID containing the JSON files, and a slash at the end "/".
+
+An individual tokenURI can now be created by just adding the tokenId to the baseURI as we did when 
+accessing the JSON file in the example above.
