@@ -8,7 +8,8 @@ We create the four events `Start`, `Bid`, `Withdraw`, `End` (line 19-22) so we c
 
 Next, we will create a couple of state variables that store all the necessary information about our auction on-chain.
 
-We create two state variables for our NFT, `nft` (line 24) where we store the NFT contract instance and `nftId` (line 25) where we store the id of the token of our NFT contract that will be auctioned.
+We create two state variables for the NFT we want to auction. In the variable `nft` (line 24) we store a representation of the NFT contract, that by combining the interface IERC721 and the address of the NFT contract will allow us to call its functions.
+In `nftId` (line 25), we store the specific id of the token of our NFT contract that will be auctioned.
 
 Next, we need a variable to store the address of the person that auctions the NFT, the `seller` (line 27). 
 We want to send them the proceeds of the auction when it is finished, that’s why use `address payable`.
