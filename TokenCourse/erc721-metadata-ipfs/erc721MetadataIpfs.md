@@ -99,5 +99,5 @@ You can access a specific JSON file then by just adding a slash and the tokenId 
 In the contract now replace the baseURI with your own baseURI, which in this example consists of the URL 
 "https://ipfs.io/ipfs/", the CID containing the JSON files, and a slash at the end "/".
 
-An individual tokenURI can now be created by just adding the tokenId to the baseURI as we did when 
-accessing the JSON file in the example above.
+An individual tokenURI will now be created for each token by adding the tokenId to the baseURI as we did 
+manually to access the JSON file in the example above.
