@@ -12,8 +12,8 @@ and has a constructor where their values can be set during the deployment of the
 In this case, we are going to use the default values, we call our token the same as the contract `"Geometry"` and make `"GEO"` its symbol.
 
 ### Base URI
-With an ERC721 contract, we are able to mint various tokens, each with its own tokenId. As we saw in the IERC721Metadata interface, each token can have its own tokenURI, which typically points to a JSON file to store metadata like name, description, and image link.
-To make structuring easier it is common to generate the tokenURI for each token based on a combination of a baseURI and the tokenId (concatenation).
+With an ERC721 contract, we are able to mint various tokens, each with its own tokenId. As we saw in the IERC721Metadata interface, each token can have its own `tokenURI`, which typically points to a JSON file to store metadata like name, description, and image link.
+If a contract mints multiple tokens, ERC721 implementations often use the same URI as a base (`baseURI`) for all tokens and only differentiate them by adding their unique `tokenId` at the end via concatenation. In the next part, we will see what this looks like in practice.
 
 In this example, we are storing our data on IPFS, more on that in the next section. Our baseURI is <a href="https://ipfs.io/ipfs/QmSw9o2dDbGSK8BGHB1yYZDCzBfAjKtv5DFebQadJUZb85/" target="_blank">https://ipfs.io/ipfs/QmSw9o2dDbGSK8BGHB1yYZDCzBfAjKtv5DFebQadJUZb85/</a> (line 11).
 Through concatenation the tokenURI for the token with the id 0 would be <a href="https://ipfs.io/ipfs/QmSw9o2dDbGSK8BGHB1yYZDCzBfAjKtv5DFebQadJUZb85/0" target="_blank">https://ipfs.io/ipfs/QmSw9o2dDbGSK8BGHB1yYZDCzBfAjKtv5DFebQadJUZb85/0</a> , the tokenURI for the token with the id 1 would be <a href="https://ipfs.io/ipfs/QmSw9o2dDbGSK8BGHB1yYZDCzBfAjKtv5DFebQadJUZb85/1" target="_blank">https://ipfs.io/ipfs/QmSw9o2dDbGSK8BGHB1yYZDCzBfAjKtv5DFebQadJUZb85/1</a>, and so on.
