@@ -70,10 +70,12 @@ interface IERC165 {
 }
 ```
 
-## Other interfaces
-The <a href="https://eips.ethereum.org/EIPS/eip-721#specification" target="_blank">IERC721TokenReceiver</a> interface must be implemented to accept save transfers.
+The ERC165 identifier for the ERC721 interface as specified in the EIP721 is “0x80ac58cd” for example. Learn how to calculate an interface identifier and more about the ERC165 in its <a href="https://eips.ethereum.org/EIPS/eip-165" target="_blank">improvement proposal</a>.
 
-There are two optional extensions for ERC-721 contracts specified in the EIP-721:
+## Other interfaces
+The <a href="https://eips.ethereum.org/EIPS/eip-721#specification" target="_blank">IERC721TokenReceiver</a> interface must be implemented to accept safe transfers.
+
+There are two optional extensions for ERC721 contracts specified in the EIP721:
 
 IERC721Enumerable enables a contract to publish its full list of tokens and make them discoverable.
 
