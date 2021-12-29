@@ -22,6 +22,6 @@ For more information, have a look at the <a href="https://github.com/OpenZeppeli
 Have a look at the OpenZeppelins <a href="https://docs.openzeppelin.com/contracts/4.x/wizard" target="_blank">Contract Wizard</a>, which allows you to easily add additional functionality.
 
 ## Assignment
-1. Try to mint tokens to an account after deployment. Call totalSupply() and balanceOf() to confirm the correct execution.
-2. Burn tokens and then call totalSupply() and balanceOf() to confirm the correct execution.
+1. Try to mint tokens to an account after deployment. Call `totalSupply()` and `balanceOf()` to confirm the correct execution.
+2. Burn tokens and then call `totalSupply()` and `balanceOf()` to confirm the correct execution.
 3. Test the pause function by pausing the contract with the owner account and trying to make a transfer with a second account. The transaction should not be able to be executed and throw the exception: "Pausable: paused".
