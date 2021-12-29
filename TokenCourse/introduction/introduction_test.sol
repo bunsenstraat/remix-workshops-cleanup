@@ -14,10 +14,10 @@ contract MyTest {
   }
 
   function checkQuestion2() public returns (bool) {
-    return Assert.equal(foo.question1(), 3, "Answer to question 2 is not correct");
+    return Assert.equal(foo.question2(), 3, "Answer to question 2 is not correct");
   }
 
   function checkQuestion3() public returns (bool) {
-    return Assert.equal(foo.question1(), 2, "Answer to question 3 is not correct");
+    return Assert.equal(foo.question3(), 2, "Answer to question 3 is not correct");
   }
 }
