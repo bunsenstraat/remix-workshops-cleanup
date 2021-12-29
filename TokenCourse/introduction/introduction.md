@@ -25,5 +25,24 @@ That’s why the community has developed token standards that define how a devel
 The most popular token standards are the ERC20 for fungible tokens and the ERC721 for non-fungible tokens. We will learn how to create and interact with both of them in the following sections.
 
 ## Assignment
+In this assignment, we are going to test your knowledge via a short quiz.
+Assign the number of the best answer to the variables `question1` (line 5), 
+`question2` (line 6), `question3` (line 7) in the `Quiz` contract (line 4). 
 
+### Question 1:
+Why are blockchain based tokens so revolutionary?
+1. Because people can now make investments anonymously. 
+2. Because they represent ownership in digital property that now can be truly owned.
+3. Because you can use tokens to make transactions without having to pay taxes.
+
+### Question 2:
+Why did the community create token standards?
+1. So that the community can control and approve the tokens that are created.
+2. In order to restrict the functionality of tokens to safe and non-malicious actions.
+3. So that the community can create tokens that are interoperable with other contracts, products, and services.
+
+### Question 3:
+If you would create a decentralised application for a baseball trading card game where each baseball player would be represented by a token, what token standard would you use to write the token contract?
+1. ERC20
+2. ERC721
 
