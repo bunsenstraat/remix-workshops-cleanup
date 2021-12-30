@@ -11,19 +11,21 @@ With `uint public count` (line 5) we declare a state variable of the type `uint`
 We then create a `get` function (line 8) that is defined with the `view` keyword and returns a `uint` type. Specifically, it returns the `count` variable. This contract has two more functions, an `inc` (line 13) and `dec` (line 18) function that increases or decreases our count variable.
 We will talk about these concepts in our sections about **Functions - Reading and Writing to a State Variable** and **Functions - View and pure**.
 
-## Interacting with the IDE
-This GIF shows how you can interact with your contract in the IDE to test its functionality.
+## Compile and Deploy through Remix
 
-1. We compile the contract.
-2. We deploy the contract to the JavaScript VM in our browser.
-3. We interact with the contract and test its `get`, `inc`, and `dec` functions.
+**GIF** Interacting with the contract:
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/solidity-beginner-course/introduction.gif?raw=true" alt="Compile and deploy contract" width="300"/>
 
-<a href="https://i.imgur.com/SgxMo0u.gif" target="_blank">Watch Contract Interaction</a>
+1. We can compile your `Counter` contract in the "Solidity compiler" module of the Remix IDE.
+
+2. In the "Deploy & run transactions" module, we select our contract "Counter" in the contract input field and click on the "Deploy" button.
+
+3. We expand the token contract functions in the IDE, and test its `get`, `inc`, and `dec` functions.
 
 ## ⭐️ Assignment
 Throughout this course, we will give you assignments to test and consolidate your newly acquired knowledge.
 
 Your first assignment is to:
-1. Compile this contract
-2. Deploy it to the JavaScript VM
-3. Interact with your contract
+1. Compile this contract.
+2. Deploy it to the JavaScript VM.
+3. Interact with your contract.
