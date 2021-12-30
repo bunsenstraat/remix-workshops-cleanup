@@ -30,3 +30,10 @@ Once deployed the state variables `nft` (line 41), `nftId` (line 42), `highestBi
 In the next section, we will enable the auctioneer to start the auction and bidders to place their bids.
 
 ## Assignment
+We will use the assignment part of the sections to give you instructions on testing your contract in the JavaScript VM environment of Remix.
+
+1. Deploy an NFT contract. You can use the NFT contract that we created in our "3.3 ERC721 - Token Creation" section.
+
+2. Deploy this EnglishAuction contract. Use the address of the NFT contract as an argument for the `_nft` parameter, 0 for `_nftId`, and 1 for `_startingBid`.
+
+3. After the deployment of your contract, test if contract functions like `nft`, `nftId`, and `started` work as expected.

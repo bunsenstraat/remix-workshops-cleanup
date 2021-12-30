@@ -26,3 +26,14 @@ Next, we set the `highestBidder` to the account calling the function (line 68), 
 Finally, we emit the `Bid` event (line 71).
 
 ## Assignment
+1. Deploy an NFT contract. You can use the NFT contract that we created in our “3.3 ERC721 - Token Creation” section.
+
+2. Mint yourself an NFT with the tokenId 0.
+
+3. Deploy this EnglishAuction contract. Use the address of the NFT contract as an argument for the `_nft` parameter, 0 for `_nftId`, and 1 for `_startingBid`.
+
+4. Call the `approve` function of your NFT contract with the address of the auction contract as an argument for the `to` parameter, and 0 for the `tokenId`. This will allow the contract to transfer the token to auction it.
+
+5. Call the `start` function of your auction contract. If you call the `started` function now, it should return `true`. If you call the `highestBid` function it should return 1.
+
+6. Set the value that you can attach to transactions to 3 Wei and call the `bid` function of the auction contract. If you call the `highestBid` function it should now return 3.

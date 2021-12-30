@@ -20,4 +20,24 @@ If nobody bids on the NFT, we send the NFT back to the auctioneer (line 92).
 
 Finally, we emit the `End` event (line 95).
 
-## Assigment
+## Assignment
+
+1. Deploy an NFT contract. You can use the NFT contract that we created in our “3.3 ERC721 - Token Creation” section.
+
+2. Mint yourself an NFT with the tokenId 0.
+
+3. For testing purposes change the value that is assigned to the `endAt` state variable (line 54) from `7 days` to `5 minutes`. 
+
+4. Deploy this EnglishAuction contract. Use the address of the NFT contract as an argument for the `_nft` parameter, 0 for `_nftId`, and 1 for `_startingBid`.
+
+5. Call the `approve` function of your NFT contract with the address of the auction contract as an argument for the `to` parameter, and 0 for the `tokenId`. 
+
+6. Call the `start` function of your auction contract. 
+
+7. Bid with account 1, 2 Ether and with account 2, 3 Ether. If you call the `highestBidder` function it should now return the address of account 2.
+
+8. Call the `withdraw` function with account 1. In the balance of account 1, you should see the 2 Ether - transactions fees added.
+
+9. After 5 minutes have passed, call the `end` function. Then call the `ended` function which should return `true`.
+
+If you call the `ownerOf` function of the NFT contract with the tokenId 0, it should return the address of account 2. If you look at the balance of account 1 it should have increased by 3 Ether - transaction fees.
