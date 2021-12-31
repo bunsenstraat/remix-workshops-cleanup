@@ -24,6 +24,11 @@ That’s why the community has developed token standards that define how a devel
 
 The most popular token standards are the ERC20 for fungible tokens and the ERC721 for non-fungible tokens. We will learn how to create and interact with both of them in the following sections.
 
+The ERC777 is a fungible token standard, like the ERC20, but with more advanced features like hooks while remaining backward compatible with ERC20. Learn more about the ERC777 in its <a href="https://eips.ethereum.org/EIPS/eip-777" target="_blank">EIP (Ethereum improvement proposal)</a>.
+
+The ERC1155 is a multi-token standard that allows a single contract to manage different types of tokens, such as fungible, non-fungible, or semi-fungible tokens.
+Learn more about the ERC1155 in its <a href="https://eips.ethereum.org/EIPS/eip-1155" target="_blank">EIP</a>.
+
 ## Assignment
 In this assignment, we are going to test your knowledge via a short quiz.
 Assign the number of the best answer to the variables `question1` (line 5), 
