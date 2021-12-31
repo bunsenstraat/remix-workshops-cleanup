@@ -29,7 +29,7 @@ The ERC777 is a fungible token standard, like the ERC20, but with more advanced 
 The ERC1155 is a multi-token standard that allows a single contract to manage different types of tokens, such as fungible, non-fungible, or semi-fungible tokens.
 Learn more about the ERC1155 in its <a href="https://eips.ethereum.org/EIPS/eip-1155" target="_blank">EIP</a>.
 
-## Assignment
+## ⭐️ Assignment
 In this assignment, we are going to test your knowledge via a short quiz.
 Assign the number of the best answer to the variables `question1` (line 5), 
 `question2` (line 6), `question3` (line 7) in the `Quiz` contract (line 4). 

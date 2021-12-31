@@ -25,7 +25,7 @@ Next, we set the `highestBidder` to the account calling the function (line 68), 
 
 Finally, we emit the `Bid` event (line 71).
 
-## Assignment
+## ⭐️ Assignment
 1. Deploy an NFT contract. You can use the NFT contract that we created in our “3.3 ERC721 - Token Creation” section.
 
 2. Mint yourself an NFT with the tokenId 0.

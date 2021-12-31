@@ -24,7 +24,7 @@ The safeMint function is part of the ERC721 implementation of OpenZeppelin and l
 
 In the next section, we will see how we can create and host the metadata for our NFTs.
 
-## Assignment
+## ⭐️ Assignment
 1. Rename your contract to `Geometry`.
 2. Rename your token to `Geometry`.
 3. Change the symbol of your token to `GEO`.

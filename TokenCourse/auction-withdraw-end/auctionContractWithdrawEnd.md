@@ -20,7 +20,7 @@ If nobody bids on the NFT, we send the NFT back to the auctioneer (line 92).
 
 Finally, we emit the `End` event (line 95).
 
-## Assignment
+## ⭐️ Assignment
 
 1. Deploy an NFT contract. You can use the NFT contract that we created in our “3.3 ERC721 - Token Creation” section.
 

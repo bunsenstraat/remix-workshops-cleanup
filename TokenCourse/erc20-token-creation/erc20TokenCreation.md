@@ -10,7 +10,7 @@ In this case, we are going to use the default values, we call our token the same
 Next, we make use of the inherited `_mint` function (line 8) that allows us to create tokens upon deployment of the contract. Inside the parameters, we specify the address of the account that gets the tokens and the amount of tokens that are created. 
 In this case, the account that deploys the contract will receive the tokens and we set the amount to 1000000 to the power of `decimals()`. The optional function `decimals()` of the ERC20 token standard is implemented and set to the default value of 18. We will create 1000000 tokens that will have 18 decimals.
 
-## Assignment
+## ⭐️ Assignment
 1. Rename your contract to `EduCoin`.
 2. Rename your token to `EduCoin`.
 3. Change the symbol of your token to `EDC`.
