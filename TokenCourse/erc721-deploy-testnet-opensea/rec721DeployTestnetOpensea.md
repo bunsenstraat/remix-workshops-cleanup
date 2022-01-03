@@ -7,8 +7,7 @@ In order to make transactions on the testnet, we need Ethereum testnet tokens.
 
 **1.1** Switch your Metamask from “Ethereum Mainnetwork” to “Rinkeby Test Network”.
 
-**1.2** Go to <a href="https://faucet.paradigm.xyz/" 
-target="_blank">https://faucet.paradigm.xyz/</a>, enter the address of your account and claim testnet ETH.
+**1.2** Go to <a href="https://faucets.chain.link/rinkeby" target="_blank">https://faucets.chain.link/rinkeby/</a>, enter the address of your account, and claim testnet ETH. You could also use other ropsten faucets like <a href="https://faucet.paradigm.xyz/" target="_blank">https://faucet.paradigm.xyz/</a> or <a href="https://app.mycrypto.com/faucet" target="_blank">https://app.mycrypto.com/faucet</a>. Have a look at the faucets listed on <a href="https://ethereum.org/en/developers/docs/networks/#testnet-faucets" target="_blank">ethereum.org</a> to learn more.
 
 ### 2. Contract Deployment
 **2.1** In the “DEPLOY & RUN TRANSACTIONS” module of the Remix IDE under “ENVIRONMENT” select “Injected Web3” as the environment. It should ask you to connect your account which you should confirm.
