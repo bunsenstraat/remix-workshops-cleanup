@@ -28,4 +28,4 @@ In the next section, we will see how we can create and host the metadata for our
 1. Rename your contract to `Geometry`.
 2. Rename your token to `Geometry`.
 3. Change the symbol of your token to `GEO`.
-4. Change the `_baseURI` to "https://ipfs.io/ipfs/QmSw9o2dDbGSK8BGHB1yYZDCzBfAjKtv5DFebQadJUZb85/".
+4. Change the `_baseURI` to <a href="https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp/" target="_blank">https://ipfs.io/ipfs/QmVrsYxXh5PzTfkKZr1MfUN6PotJj8VQkGQ3kGyBNVKtqp/</a>.
