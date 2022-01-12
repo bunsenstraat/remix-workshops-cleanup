@@ -3,7 +3,7 @@ The metadata extension is optional. It allows us to add additional information t
 ## ERC721 Metadata Functions
 
 ### name
-The function `name` (line 16) returns the name of the token collection. A token collection means all tokens created with your ERC721 token contract implementation. They will all have this name, regardless of their tokenId.
+The function `name` (line 16) returns the name of the token collection. A token collection means all tokens created with your ERC721 token contract implementation. Every token in this collection will have this name, regardless of their tokenId.
 
 ### symbol
 The function `symbol` (line 21) returns the symbol of the token collection.
@@ -34,6 +34,6 @@ The file that the tokenURI points to should conform to the Metadata JSON Schema 
     }
 }
 ```
-The root element must be of the type object. This root object should have properties with the keys: name, description and image that should be all of the type string.
+The root element must be of the type object. This root object should have properties with the keys: name, description, and image that should be all of the type string.
 
-The ERC721 standard is pretty flexible, the tokenURI does not need to point to a JSON document, the JSON does not need to have all properties and often has additional properties.
+The ERC721 standard is pretty flexible, the tokenURI does not need to point to a JSON document and the JSON does not need to have all properties and often has additional properties.

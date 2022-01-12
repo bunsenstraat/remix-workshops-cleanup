@@ -7,10 +7,12 @@ In order to make transactions on the testnet, we need Ethereum testnet tokens.
 
 **1.1** Switch your Metamask from “Ethereum Mainnetwork” to “Rinkeby Test Network”.
 
-**1.2** Go to <a href="https://faucets.chain.link/rinkeby" target="_blank">https://faucets.chain.link/rinkeby/</a>, enter the address of your account, and claim testnet ETH. You could also use other ropsten faucets like <a href="https://faucet.paradigm.xyz/" target="_blank">https://faucet.paradigm.xyz/</a> or <a href="https://app.mycrypto.com/faucet" target="_blank">https://app.mycrypto.com/faucet</a>. Have a look at the faucets listed on <a href="https://ethereum.org/en/developers/docs/networks/#testnet-faucets" target="_blank">ethereum.org</a> to learn more.
+**1.2** Go to <a href="https://faucet.paradigm.xyz/" 
+target="_blank">https://faucet.paradigm.xyz/</a>, enter the address of your account and claim testnet ETH.
+You could also use other ropsten faucets like <a href="https://faucet.paradigm.xyz/" target="_blank">https://faucet.paradigm.xyz/</a> or <a href="https://app.mycrypto.com/faucet" target="_blank">https://app.mycrypto.com/faucet</a>. Have a look at the faucets listed on <a href="https://ethereum.org/en/developers/docs/networks/#testnet-faucets" target="_blank">ethereum.org</a> to learn more.
 
 ### 2. Contract Deployment
-**2.1** In the “DEPLOY & RUN TRANSACTIONS” module of the Remix IDE under “ENVIRONMENT” select “Injected Web3” as the environment. It should ask you to connect your account which you should confirm.
+**2.1** In the “DEPLOY & RUN TRANSACTIONS” module of the Remix IDE under “ENVIRONMENT” select “Injected Web3”. It should then ask you to connect your account, which you should confirm.
 
 **2.2** Deploy your token contract and confirm the transaction in Metamask.
 
@@ -21,9 +23,9 @@ In order to make transactions on the testnet, we need Ethereum testnet tokens.
 
 **3.2** Expand the input fields next to the safeMint button. Enter the Ethereum address of the account that is connected to Remix in the “to:” input field. Enter “0” in the input field “tokenID:”. Click on transact.
 
-**3.3** In Metamask click on assets, then click on the “Import tokens” link, and paste the address of your contract in the input field, you can set decimals to 0. 
+**3.3** In Metamask click on assets, then click on the “Import tokens” link, and paste the address of your contract in the input field. You can set decimals to 0. 
 
-You should now see the name of the symbol of your token contract (e.g. GEO) in your “Assets” view in Metamask, you should have one of these tokens.
+You should now see the name of the symbol of your token contract (e.g. GEO) in your “Assets” view in Metamask. You should have one of these tokens.
 
 ### 4. See your NFT on OpenSea
 <a href="https://opensea.io/" 
@@ -33,4 +35,4 @@ target="_blank">https://testnets.opensea.io/</a>
 **4.1** Go to <a href="https://testnets.opensea.io/login" 
 target="_blank">https://testnets.opensea.io/login</a>.
 
-**4.2** Connect with your Metamask wallet. You should get redirected to your account <a href="https://testnets.opensea.io/account" target="_blank">https://testnets.opensea.io/account</a> view on OpenSea, where you should be able to see your NFT now. You should see the image of your NFT and when you click on it you should see the name, description, and under properties also the attributes that you created.
+**4.2** Connect with your Metamask wallet. You should be redirected to your account <a href="https://testnets.opensea.io/account" target="_blank">https://testnets.opensea.io/account</a> view on OpenSea, where you should be able to see your NFT. You should see the image of your NFT; when you click on it, you should see the name, description, and under properties, also the attributes that you created.
