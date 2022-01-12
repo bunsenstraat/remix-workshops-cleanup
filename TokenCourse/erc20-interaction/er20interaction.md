@@ -27,7 +27,7 @@ It should return "EDC".
 Click on the "totalSupply" button to call the totalSupply() function.
 It should return 1000000000000000000000 (1000*10**18).
 
-**GIF** Test decimals, name, symbol and totalSupply functions:
+**GIF** Test decimals, name, symbol, and totalSupply functions:
 <img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_test_functions.gif?raw=true" alt="Test transfer function" width="300"/>
 
 #### 2.5 Balance of
@@ -42,7 +42,7 @@ It should return 1000000000000000000000 (1000*10**18).
 #### 2.6 Transfer
 We will transfer EduCoin from one account to a second account.
 
-**2.6.1** Go to the "ACCOUNT" section in the sidebar, click on the displayed address, that should open a dropdown. Select the second address displayed and copy its address (account 2).
+**2.6.1** Go to the "ACCOUNT" section in the sidebar and click on the displayed address. This should open a dropdown. Select the second address displayed and copy its address (account 2).
 
 **2.6.2** Open the dropdown and select the first account again (account 1), because this is the account that we want to use to make the transfer.
 
