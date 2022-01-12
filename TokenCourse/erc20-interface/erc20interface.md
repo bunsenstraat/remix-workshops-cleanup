@@ -1,6 +1,6 @@
-ERC20 (Ethereum Request for Comments 20) is a standard for token contracts that manage fungible tokens on the Ethereum blockchain.
+ERC20 (Ethereum Request for Comments 20) is a standard for token contracts that manages fungible tokens on the Ethereum blockchain.
 
-Fungible tokens are all equal to each other and have the same value, behavior, and rights. Fungible tokens are often used as a medium of exchange, like the currencies ETH or BTC, but also for other use cases like voting rights or reputation.
+Fungible tokens are all equal to each other and have the same value, behavior, and rights. Fungible tokens are often used as a medium of exchange, like the currencies ETH or BTC. However, they can also have other use cases like voting rights or reputation.
 
 If you want to know more about the ERC20 token standard, have a look at the specifications in its <a href="https://eips.ethereum.org/EIPS/eip-20" target="_blank">Ethereum improvement proposal</a>.
 
@@ -9,7 +9,7 @@ To get an overview of the required functionality of an ERC20 token contract, we 
 This interface (line 9) is part of the open-source contract library provided by <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.4.0/contracts/token/ERC20/IERC20.sol" target="_blank">OpenZeppelin</a>.
 
 ## ERC20 Functions
-Contracts compliant with the ERC20 standard have to implement the following six functions:
+Contracts compliant with the ERC20 standard must implement the following six functions:
 
 ### totalSupply
 The function `totalSupply` (line 13) returns the total amount of tokens available.
@@ -41,7 +41,7 @@ The `Transfer` (line 71) event must be emitted when `value` amount of tokens are
 The `Approval` (line 77)  event must be emitted when the account `indexed owner` approves the account `indexed spender` to transfer `value` amount of tokens on its behalf.
 
 ## ERC20 Optional functions
-Additionally to the mandatory functions and events, there are also three optional functions specified in the ERC20 standard, that are not implemented in this interface:
+In addition to the mandatory functions and events, there are also three optional functions specified in the ERC20 standard that are not implemented in this interface:
 
 ### name
 `function name() external view returns (string);`
@@ -56,6 +56,6 @@ Returns the symbol of the token.
 ### decimals
 `function decimals() external view returns (uint8);`
 
-Returns the number of decimals the token uses.
+Returns the number of decimal places the token uses.
 
-You may want to use decimals to make your token divisible into arbitrary amounts like 1.5 ETH when displayed. The EVM only supports integer numbers. That's why the ERC20 standard suggests to implement the decimal functionality that specifies how many decimal places a token has. 18 decimals is the industry standard.
+You may want to use decimals to make your token divisible into arbitrary amounts like 1.5 ETH when displayed. The EVM (Ethereum virtual machine) only supports integer numbers. That's why the ERC20 standard suggests to implement the decimal functionality that specifies how many decimal places a token has. 18 decimal places is the industry standard.
