@@ -1,3 +1,6 @@
+In this contract tutorial, we will learn how to create an ERC721 (NFT) auction contract. 
+We recommend to you, to do the Learneth NFT course before starting this tutorial. 
+
 In this section, we will create a function to start the auction and a function to bid on the NFT.
 
 ### Start

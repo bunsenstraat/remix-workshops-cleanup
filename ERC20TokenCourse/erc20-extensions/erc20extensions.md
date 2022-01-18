@@ -21,6 +21,8 @@ For more information, have a look at the <a href="https://github.com/OpenZeppeli
 
 Have a look at the OpenZeppelins <a href="https://docs.openzeppelin.com/contracts/4.x/wizard" target="_blank">Contract Wizard</a>, which allows you to easily add additional functionality.
 
+If you successfully completed this course, try the Learneth NFT Course as the next step in your journey.
+
 ## ⭐️ Assignment
 1. Try to mint tokens to an account after deployment. Call `totalSupply()` and `balanceOf()` to confirm the correct execution.
 2. Burn tokens and then call `totalSupply()` and `balanceOf()` to confirm the correct execution.

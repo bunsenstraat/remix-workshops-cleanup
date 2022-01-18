@@ -22,7 +22,9 @@ If everybody would create their own token contracts with different behavior and 
 
 The Ethereum community has developed token standards that define how a developer can create tokens that are interoperable (able to work with others) with other contracts, products, and services. Contracts developed under these standards need to include a certain set of functions and events.
 
-The most popular token standards are the ERC20 for fungible tokens and the ERC721 for non-fungible tokens. We will learn how to create and interact with both token standards in the following sections.
+The most popular token standards are the ERC20 for fungible tokens and the ERC721 for non-fungible tokens. In this course, we will learn how to create and interact with NFTs, tokens created with the ERC721 token standard.
+
+If you want to learn more about fungible tokens and the ERC20 token standard, have a look at the Learneth ERC20 Token Course. 
 
 The ERC777 is a fungible token standard, like the ERC20, that includes more advanced features like hooks while remaining backward compatible with ERC20. Learn more about the ERC777 in its <a href="https://eips.ethereum.org/EIPS/eip-777" target="_blank">EIP (Ethereum improvement proposal)</a>.
 
@@ -35,7 +37,7 @@ Assign the number of the best answer to the variables `question1` (line 5),
 `question2` (line 6), `question3` (line 7) in the `Quiz` contract (line 4). 
 
 ### Question 1:
-Why are blockchain based tokens so revolutionary?
+Why are blockchain-based tokens so revolutionary?
 1. Because people can now make investments anonymously. 
 2. Because they represent ownership in digital assets that can be owned and transferred.
 3. Because you can use tokens to make transactions without having to pay taxes.
