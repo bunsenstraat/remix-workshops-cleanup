@@ -16,7 +16,7 @@ steps:
     path: erc20-token-creation
   - name: 4. Interaction
     path: erc20-interaction
-  - name: 5. ERC20 - Testnet Deployment
+  - name: 5. Testnet Deployment
     path: erc20-testnet-deployment
-  - name: 6. ERC20 - Extensions
+  - name: 6. Extensions
     path: erc20-extensions
