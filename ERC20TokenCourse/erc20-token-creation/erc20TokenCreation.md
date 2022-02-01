@@ -1,4 +1,4 @@
-A token standard tells us what functionality the contract needs to be compliant with it. How this functionality is implemented is up to the developers. In this contract, we are going to use an ERC20 token contract implementation from OpenZeppelin (line 4). 
+A token standard tells us what functionality the contract needs to comply with it. How this functionality is implemented is up to the developers. In this contract, we will use an ERC20 token contract implementation from OpenZeppelin (line 4). In this case, we import version 4.4.0 of the OpenZeppelin contracts.
 
 Have a look at their nicely documented <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20 contract</a> to have a better understanding of how an implementation might look. Apart from the functionality specified in the ERC20 standard, this contract provides additional functionality.
 
