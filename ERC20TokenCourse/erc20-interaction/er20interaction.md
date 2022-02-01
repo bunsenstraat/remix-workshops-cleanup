@@ -51,7 +51,7 @@ We will transfer EduCoin from one account to a second account.
 **2.6.4** If you check the balances for account 1 and account 2, they should both return the amount 500000000000000000000.
 
 **GIF** Test transfer function:
-<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_test_functions.gif?raw=true" alt="Test transfer function" width="300"/>
+<img src="https://github.com/dacadeorg/remixMedia/blob/main/token-course/erc20/erc20_transfer.gif?raw=true" alt="Test transfer function" width="300"/>
 
 #### 2.7 Approve
 We will now allow account 1 to spend tokens on behalf of account 2.
