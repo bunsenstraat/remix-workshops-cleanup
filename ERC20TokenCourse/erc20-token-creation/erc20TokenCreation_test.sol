@@ -1,5 +1,6 @@
 pragma solidity ^0.8.3;
 import "remix_tests.sol";
+import "remix_accounts.sol";
 import "./erc20TokenCreation.sol";
 
 contract MyTest is EduCoin {
