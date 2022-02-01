@@ -5,7 +5,7 @@ IPFS ( InterPlanetary File System) is a peer-to-peer network for storing files i
 We want to host our images and the JSON files with their metadata on IPFS. 
 
 ### Create Image Folder
-In this example, we will create metadata for three tokens. As you can see below, we created three images that we stored in a folder.
+In this example, we will create metadata for three tokens. As you can see below, we create three images that we stored in a folder.
 ```
 geo-img
 ├── geo_1.png
