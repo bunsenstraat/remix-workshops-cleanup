@@ -24,7 +24,7 @@ contract Primitives {
     int public i256 = 456;
     int public i = -123; // int is same as int256
 
-    address public addr = 0xb180Fc7dB413D965D0E6f8098F37e2df33a4347E;
+    address public addr = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;
 
     // Default values
     // Unassigned variables have a default value
