@@ -1,5 +1,5 @@
 In this contract tutorial, we will learn how to create an ERC721 (NFT) auction contract. 
-We recommend to you, to do the Learneth NFT course before starting this tutorial. 
+We recommend to you, to do the Learneth "Solidity NFT Course" before starting this tutorial. 
 
 In this section, we will create a function to start the auction and a function to bid on the NFT.
 
@@ -29,7 +29,7 @@ Next, we set the `highestBidder` to the account calling the function (line 68), 
 Finally, we emit the `Bid` event (line 71).
 
 ## ⭐️ Assignment
-1. Deploy an NFT contract. You can use the NFT contract that we created in our “3.3 ERC721 - Token Creation” section.
+1. Deploy an NFT contract. You can use the NFT contract that we create in our "Solidity NFT Course" Learneth course.
 
 2. Mint yourself an NFT with the tokenId 0.
 
