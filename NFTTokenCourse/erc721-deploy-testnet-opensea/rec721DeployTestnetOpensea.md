@@ -10,23 +10,23 @@ In this section, we will use Metamask (an Ethereum wallet) to deploy our contrac
 ### 2. Get testnet token for Rinkeby
 In order to make transactions on the testnet, we need Ethereum testnet tokens.
 
-**2.1** Switch your Metamask from “Ethereum Mainnetwork” to “Rinkeby Test Network”.
+**2.1** Switch your Metamask from "Ethereum Mainnetwork" to "Rinkeby Test Network".
 
 **2.2** Go to <a href="https://faucet.paradigm.xyz/" 
 target="_blank">https://faucet.paradigm.xyz/</a>, enter the address of your account and claim testnet ETH.
 You could also use other ropsten faucets like <a href="https://faucet.paradigm.xyz/" target="_blank">https://faucet.paradigm.xyz/</a> or <a href="https://app.mycrypto.com/faucet" target="_blank">https://app.mycrypto.com/faucet</a>. Have a look at the faucets listed on <a href="https://ethereum.org/en/developers/docs/networks/#testnet-faucets" target="_blank">ethereum.org</a> to learn more.
 
 ### 3. Contract Deployment
-**3.1** In the “DEPLOY & RUN TRANSACTIONS” module of the Remix IDE under “ENVIRONMENT” select “Injected Web3”. It should then ask you to connect your account, which you should confirm.
+**3.1** In the "DEPLOY & RUN TRANSACTIONS" module of the Remix IDE under "ENVIRONMENT" select "Injected Web3". It should then ask you to connect your account, which you should confirm. Then you should see the Rinkeby network badge under "Injected Web3".
 
 **3.2** Deploy your token contract and confirm the transaction in Metamask.
 
-**3.3**  Your contract should appear in the “Deployed Contracts” section.
+**3.3**  Your contract should appear in the "Deployed Contracts" section.
 
 ### 4. Mint an NFT
 **4.1** Expand your contract in the IDE so you can see the buttons for the functions.
 
-**4.2** Expand the input fields next to the safeMint button. Enter the Ethereum address of the account that is connected to Remix in the “to:” input field. Enter “0” in the input field “tokenID:”. Click on transact.
+**4.2** Expand the input fields next to the safeMint button. Enter the Ethereum address of the account that is connected to Remix in the “to:” input field. Enter “0” in the input field "tokenID:". Click on transact.
 
 **4.3** In Metamask click on assets, then click on the “Import tokens” link, and paste the address of your contract in the input field. You can set decimals to 0. 
 
