@@ -2,7 +2,7 @@ A token standard tells us what functionality the contract needs to comply with i
 
 Have a look at their nicely documented <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20 contract</a> to have a better understanding of how an implementation might look. Apart from the functionality specified in the ERC20 standard, this contract provides additional functionality.
 
-We will create our own contract called MyToken (line 6), which inherits (line 6) the functionality from the OpenZepplin ERC20 token contract implementation that we imported (line 4).
+We will create our own contract called MyToken (line 6), which inherits the functionality from the OpenZepplin ERC20 token contract implementation that we imported (line 4).
 
 This contract implements the optional functions `name()` and `symbol()` of the ERC20 Token standard and has a constructor where their values can be set during the deployment of the contract (line 7).
 In this case, we are going to use the default values. We will call our token the same as the contract `"MyToken"` and make `"MTK"` its symbol.
